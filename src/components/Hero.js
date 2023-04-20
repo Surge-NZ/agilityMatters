@@ -9,15 +9,15 @@ const Hero = () => {
       <Container>
         <Row>
           <Col md={6} className={styles.heroLeftColumn}>
-            {/* <figure> */}
-            <h1>🚧</h1>
-            <StaticImage
-              src="../images/agility-matters-book-cover.jpg"
-              alt="Agility Matters Book Cover"
-              placeholder="blurred"
-              layout="fluid"
-            />
-            {/* </figure> */}
+            <figure>
+              <h1>🚧</h1>
+              <StaticImage
+                src="../images/agility-matters-book-cover.jpg"
+                alt="Agility Matters Book Cover"
+                placeholder="blurred"
+                layout="fluid"
+              />
+            </figure>
           </Col>
           <Col md={6} className={styles.heroRightColumn}>
             <h1>AGILITY MATTERS</h1>
