@@ -15,10 +15,10 @@ const Hero = () => {
                 src="../images/agility-matters-book-cover.png"
                 alt="Agility Matters Book Cover"
                 loading="eager"
-                width={64}
+                width={264}
                 quality={95}
                 formats={["auto", "webp", "avif"]}
-                style={{ marginBottom: `var(--space-3)` }}
+                // style={{ marginBottom: `var(--space-3)` }}
               />
             </Col>
             <Col md={6} className={styles.heroRightColumn}>
