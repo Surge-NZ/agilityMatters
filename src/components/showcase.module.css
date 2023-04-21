@@ -1,0 +1,23 @@
+.showcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Monserrat", sans-serif;
+  text-align: center;
+}
+
+.showcase h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.showcaseSubHeader {
+  font-weight: 300;
+  font-size: 21px;
+  color: #9a9a9a;
+}
+
+.showcase p {
+  color: #9a9a9a;
+}
