@@ -6,13 +6,13 @@ import Summary from "../components/summary";
 
 const IndexPage = () => {
   return (
-    <>
+    <React.Fragment>
       <Layout>
         <Hero />
         <Showcase />
         <Summary />
       </Layout>
-    </>
+    </React.Fragment>
   );
 };
 

@@ -6,7 +6,7 @@ import BookFeature from "./bookFeature";
 
 const Summary = () => {
   return (
-    <>
+    <React.Fragment>
       <Container className={styles.summary}>
         <Row>
           <Col>
@@ -30,7 +30,7 @@ const Summary = () => {
           </Col>
         </Row>
       </Container>
-    </>
+    </React.Fragment>
   );
 };
 

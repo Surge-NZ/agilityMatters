@@ -5,7 +5,7 @@ import * as styles from "./showcase.module.css";
 
 const Showcase = () => {
   return (
-    <>
+    <React.Fragment>
       <Container className={styles.showcase}>
         <Row>
           <h2>Fundamental Business Practices</h2>
@@ -38,7 +38,7 @@ const Showcase = () => {
           </Col>
         </Row>
       </Container>
-    </>
+    </React.Fragment>
   );
 };
 
