@@ -9,14 +9,13 @@ const Navbar = () => {
       <Container>
         <Row>
           <Col xs={6}>
-            <span role="img" aria-label="rocket">
-              🚀
-            </span>
+            <Link activeClassName={styles.active} to="/">
+              <span role="img" aria-label="rocket">
+                🚀
+              </span>
+            </Link>
           </Col>
           <Col xs={6} className={styles.navbarRight}>
-            <Link activeClassName={styles.active} to="/home">
-              home
-            </Link>
             <Link activeClassName={styles.active} to="/transformation">
               transformation
             </Link>
