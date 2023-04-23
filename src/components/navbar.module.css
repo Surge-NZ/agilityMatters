@@ -1,0 +1,50 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  padding: 2rem 8rem;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+
+.navbar:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-image: url("imagen-del-hero.jpg"); */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5;
+}
+
+.navbar img {
+  max-height: 50px;
+}
+
+.navbarRight {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbarRight a {
+  margin-left: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #fff2;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.navbarRight a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  padding: 4px;
+}
