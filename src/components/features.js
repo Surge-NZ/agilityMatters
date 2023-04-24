@@ -1,7 +1,8 @@
 import React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 
 // reactstrap components
-import { Card, Container, Row, Col } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 
 // core components
 
@@ -13,12 +14,10 @@ function Features() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <h2 className="title">Full-Funnel Social Analytics</h2>
+                <h2 className="title">Fundamental Business Practices</h2>
                 <h4 className="description">
-                  Insight to help you create, connect, and convert. Understand
-                  Your Audience's Interests, Influence, Interactions, and
-                  Intent. Discover emerging topics and influencers to reach new
-                  audiences.
+                  Are you wantng to optimise you business and move it forward in
+                  an agile world?
                 </h4>
               </Col>
             </Row>
@@ -28,9 +27,9 @@ function Features() {
                   <div className="icon icon-info">
                     <i className="now-ui-icons ui-2_chat-round"></i>
                   </div>
-                  <h4 className="info-title">Social Conversations</h4>
+                  <h4 className="info-title">Book</h4>
                   <p className="description">
-                    Gain access to the demographics, psychographics, and
+                    GGain access to the demographics, psychographics, and
                     location of unique people.
                   </p>
                 </div>
@@ -40,7 +39,7 @@ function Features() {
                   <div className="icon icon-success">
                     <i className="now-ui-icons business_chart-pie-36"></i>
                   </div>
-                  <h4 className="info-title">Analyze Performance</h4>
+                  <h4 className="info-title">Agility Transformation</h4>
                   <p className="description">
                     Unify data from Facebook, Instagram, Twitter, LinkedIn, and
                     Youtube to gain rich insights.
@@ -52,7 +51,7 @@ function Features() {
                   <div className="icon icon-warning">
                     <i className="now-ui-icons design-2_ruler-pencil"></i>
                   </div>
-                  <h4 className="info-title">Measure Conversions</h4>
+                  <h4 className="info-title">Adaptive Strategy</h4>
                   <p className="description">
                     Track actions taken on your website, understand the impact
                     on your bottom line.
@@ -61,6 +60,73 @@ function Features() {
               </Col>
             </Row>
           </Container>
+          {/* // other section */}
+          <div className="features-5">
+            <Container>
+              <Row>
+                <Col md="5">
+                  <h2 className="title">{`AGILITY MATTERS\nby Michael Law
+`}</h2>
+                  <p>
+                    Blurb of the book/ Overview on how it helps and what it
+                    covers.Buy it so you can be the best Etc etc Etc
+                  </p>
+                  <div className="info info-horizontal">
+                    <div className="icon icon-info icon-circle">
+                      <i className="now-ui-icons location_world"></i>
+                    </div>
+                    <div className="description">
+                      <h4 className="info-title">Point1</h4>
+                      <p>
+                        The moment you use Now UI Kit, you know you’ve never
+                        felt anything like it. With a single use lets you do
+                        more than ever before.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="info info-horizontal">
+                    <div className="icon icon-info icon-circle">
+                      <i className="now-ui-icons sport_user-run"></i>
+                    </div>
+                    <div className="description">
+                      <h4 className="info-title">Easy to Use</h4>
+                      <p>
+                        Divide details about your product or agency work into
+                        parts. Write a few lines about each one. A paragraph
+                        describing a feature.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="info info-horizontal">
+                    <div className="icon icon-info icon-circle">
+                      <i className="now-ui-icons ui-2_time-alarm"></i>
+                    </div>
+                    <div className="description">
+                      <h4 className="info-title">Fast Prototyping</h4>
+                      <p>
+                        Divide details about your product or agency work into
+                        parts. Write a few lines about each one. A paragraph
+                        describing a feature.
+                      </p>
+                    </div>
+                  </div>
+                </Col>
+                <Col md="7">
+                  <div className="tablet-container"></div>
+                  <StaticImage
+                    //   className={styles.heroImage}
+                    src="../images/agility-matters-book-cover.png"
+                    alt="Agility Matters Book Cover"
+                    loading="eager"
+                    width={364}
+                    quality={95}
+                    formats={["auto", "webp", "avif"]}
+                    //   style={{ marginBottom: `var(--space-3)` }}
+                  />
+                </Col>
+              </Row>
+            </Container>
+          </div>
         </div>
       </div>
     </>

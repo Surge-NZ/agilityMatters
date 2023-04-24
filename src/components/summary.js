@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import { StaticImage } from "gatsby-plugin-image";
 import * as styles from "./summary.module.css";
-import BookFeature from "./bookFeature";
+// import BookFeature from "./bookFeature";
 
 const Summary = () => {
   return (
@@ -13,9 +13,7 @@ const Summary = () => {
           <h2>AGILITY MATTERS</h2>
           <h2>by Michael Law</h2>
           <h4>{`Blurb of the book/ Overview on how it helps and what it covers.Buy it so you can be the best\nEtc etc Etc`}</h4>
-          {/* <BookFeature />
-          <BookFeature />
-          <BookFeature /> */}
+          {/* <BookFeature /> */}
         </Col>
         <Col>
           <StaticImage
