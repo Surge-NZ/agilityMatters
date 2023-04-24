@@ -6,7 +6,7 @@ import * as styles from "./hero.module.css";
 
 const Hero = () => {
   return (
-    <div className={styles.hero}>
+    <div className={styles.hero}> 
       <Container>
         <Row>
           <Col md={6} className={styles.heroLeftColumn}>
