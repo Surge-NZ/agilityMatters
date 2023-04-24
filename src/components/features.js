@@ -13,7 +13,7 @@ function Features() {
         <div className="features-1">
           <Container>
             <Row>
-              <Col className="ml-auto mr-auto" md="8">
+              <Col className="ml-auto mr-auto" md="12">
                 <h2 className="title">Fundamental Business Practices</h2>
                 <h4 className="description">
                   Are you wantng to optimise you business and move it forward in
@@ -60,13 +60,16 @@ function Features() {
               </Col>
             </Row>
           </Container>
-          {/* // other section */}
+          {/* 
+          // other section 
+          */}
           <div className="features-5">
             <Container>
               <Row>
-                <Col md="5">
-                  <h2 className="title">{`AGILITY MATTERS\nby Michael Law
-`}</h2>
+                <Col md="7">
+                  <h2 className="title">{`AGILITY MATTERS \n
+
+                  by Michael Law`}</h2>
                   <p>
                     Blurb of the book/ Overview on how it helps and what it
                     covers.Buy it so you can be the best Etc etc Etc
@@ -111,7 +114,7 @@ function Features() {
                     </div>
                   </div>
                 </Col>
-                <Col md="7">
+                <Col md="5">
                   <div className="tablet-container"></div>
                   <StaticImage
                     //   className={styles.heroImage}
