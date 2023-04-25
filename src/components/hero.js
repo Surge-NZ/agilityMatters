@@ -39,3 +39,39 @@ const Hero = () => {
 };
 
 export default Hero;
+
+// import React from "react";
+// import { Container, Row, Col } from "reactstrap";
+// import { StaticImage } from "gatsby-plugin-image";
+
+// import * as styles from "./hero.module.css";
+
+// const Hero = ({ heroImage, heroBackgroundColor, heroTitle, heroParagraph,  }) => {
+//   return (
+//     <div className={styles.hero}>
+//       <Container>
+//         <Row>
+//           <Col md={6} className={styles.heroLeftColumn}>
+//             <StaticImage
+//               className={styles.heroImage}
+//               src={src}
+//               alt={alt}
+//               loading="eager"
+//               width={264}
+//               formats={["auto", "webp", "avif"]}
+//             />
+//           </Col>
+//           <Col md={6} className={styles.heroRightColumn}>
+//             <h1>{title}</h1>
+//             <p>{description}</p>
+//             <button className={styles.heroButton} aria-label="Order Now">
+//               {buttonText}
+//             </button>
+//           </Col>
+//         </Row>
+//       </Container>
+//     </div>
+//   );
+// };
+
+// export default Hero;
