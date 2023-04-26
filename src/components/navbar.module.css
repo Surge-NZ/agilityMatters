@@ -9,6 +9,17 @@
   text-transform: uppercase;
 }
 
+.navbarLeft {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navbarLeft a {
+  margin-right: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+
 .navbarRight {
   display: flex;
   justify-content: flex-end;
@@ -22,12 +33,13 @@
 
 .active {
   background-color: #fff2;
-  border-radius: 4px;
-  padding: 4px;
+  /* font-weight: bold; */
+  /* border-radius: 4px; */
+  /* padding: 4px; */
 }
 
 .navbarRight a:hover {
   background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 4px;
-  padding: 4px;
+  /* border-radius: 4px; */
+  /* padding: 4px; */
 }

@@ -8,11 +8,12 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <Container>
         <Row>
-          <Col xs={6}>
+          <Col className={styles.navbarLeft} xs={6}>
             <Link activeClassName={styles.active} to="/">
-              <span role="img" aria-label="rocket">
+              AGILITY MATTERS
+              {/* <span role="img" aria-label="rocket">
                 🚀
-              </span>
+              </span> */}
             </Link>
           </Col>
           <Col xs={6} className={styles.navbarRight}>
