@@ -7,8 +7,15 @@ import { StaticImage } from "gatsby-plugin-image";
 function Framework() {
   return (
     <Container>
-      <Col>
-        <Row>
+      <Col className="ml-auto mr-auto" md="12">
+        <h2 className="title">Frameworks</h2>
+        <h4 className="description">
+          The Optimal Framework for your organisation will vary depending on
+          culture and agility results.
+        </h4>
+      </Col>
+      <Row>
+        <Row className="ml-auto mr-auto" md="6">
           <Col>
             <h2>
               <b>Framework1</b>
@@ -50,7 +57,7 @@ function Framework() {
           </Col>
         </Row>
 
-        <Row>
+        <Row className="ml-auto mr-auto" md="6">
           <Col>
             <h2>
               <b>Framework2</b>
@@ -91,7 +98,7 @@ function Framework() {
             />
           </Col>
         </Row>
-      </Col>
+      </Row>
     </Container>
   );
 }

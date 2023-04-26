@@ -14,7 +14,7 @@ import {
 
 function Footer() {
   return (
-    <Container className={styles.footerWrapper}>
+    <Col className={styles.footerWrapper}>
       <StaticImage
         src="../images/footer-background.png"
         alt="Footer Background Image"
@@ -93,7 +93,7 @@ function Footer() {
           </Card>
         </Col>
       </Row>
-    </Container>
+    </Col>
   );
 }
 
