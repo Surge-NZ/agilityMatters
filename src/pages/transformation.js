@@ -3,6 +3,7 @@ import Layout from "../components/layout";
 import Header from "../components/header";
 import Analysis from "../components/analysis";
 import Footer from "../components/footer";
+import Framework from "../components/framework";
 
 // import Pricing from "../components/pricing.js";
 
@@ -17,6 +18,7 @@ const TransformationPage = () => {
         // backgroundImage={"url(/images/)"}
       />
       <Analysis />
+      <Framework />
       <Footer />
     </Layout>
   );
