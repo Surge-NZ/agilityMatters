@@ -1,6 +1,7 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 
+
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
 
@@ -24,7 +25,7 @@ function Features() {
             <Row>
               <Col md="4">
                 <div className="info info-hover">
-                  <div className="icon icon-info">
+                  <div className="icon icon-primary">
                     <i className="now-ui-icons ui-2_chat-round"></i>
                   </div>
                   <h4 className="info-title">Book</h4>
