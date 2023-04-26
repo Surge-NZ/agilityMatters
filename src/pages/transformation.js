@@ -4,6 +4,7 @@ import Header from "../components/header";
 import Analysis from "../components/analysis";
 import Footer from "../components/footer";
 import Framework from "../components/framework";
+import BlogsTransformation from "../components/blogs-transformation";
 
 // import Pricing from "../components/pricing.js";
 
@@ -18,6 +19,7 @@ const TransformationPage = () => {
         // backgroundImage={"url(/images/)"}
       />
       <Analysis />
+      <BlogsTransformation />
       <Framework />
       <Footer />
     </Layout>

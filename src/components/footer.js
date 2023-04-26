@@ -2,15 +2,7 @@ import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import * as styles from "./footer.module.css";
 
-import {
-  Button,
-  Card,
-  CardBody,
-  CardTitle,
-  Container,
-  Row,
-  Col,
-} from "reactstrap";
+import { Button, Card, CardBody, CardTitle, Row, Col } from "reactstrap";
 
 function Footer() {
   return (

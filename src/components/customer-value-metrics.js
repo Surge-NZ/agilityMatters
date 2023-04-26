@@ -4,7 +4,7 @@ import * as styles from "./analysis.module.css";
 
 import { StaticImage } from "gatsby-plugin-image";
 
-function Analysis() {
+function CustomerValueMetrics() {
   return (
     <Container>
       <Row>
@@ -39,8 +39,8 @@ function Analysis() {
         </Col>
         <Col>
           <StaticImage
-            src="../images/current-state-analysis-graph.png"
-            alt="Current State Analysis Graph"
+            src="../images/customer-value-metrics.png"
+            alt="Customer Value Metrics Graph"
             layout="fullWidth"
             //   className={styles.backgroundImage}
           />
@@ -50,4 +50,4 @@ function Analysis() {
   );
 }
 
-export default Analysis;
+export default CustomerValueMetrics;
