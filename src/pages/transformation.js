@@ -1,7 +1,9 @@
 import React from "react";
 import Layout from "../components/layout";
 import Header from "../components/header";
+import Analysis from "../components/analysis";
 import Footer from "../components/footer";
+
 // import Pricing from "../components/pricing.js";
 
 // background-image:url(../../img/bg26.jpg)
@@ -14,6 +16,7 @@ const TransformationPage = () => {
         content="Empowering your business to navigate change with speed and flexibility"
         // backgroundImage={"url(/images/)"}
       />
+      <Analysis />
       <Footer />
     </Layout>
   );
