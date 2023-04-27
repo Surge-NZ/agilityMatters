@@ -29,7 +29,7 @@ function Features() {
                   </div>
                   <h4 className="info-title">Book</h4>
                   <p className="description">
-                    GGain access to the demographics, psychographics, and
+                    Gain access to the demographics, psychographics, and
                     location of unique people.
                   </p>
                 </div>
@@ -66,7 +66,7 @@ function Features() {
           <div className="features-5">
             <Container>
               <Row>
-                <Col md="7">
+                <Col md="6">
                   <h2 className="title">{`AGILITY MATTERS \n
 
                   by Michael Law`}</h2>
@@ -79,9 +79,9 @@ function Features() {
                       <i className="now-ui-icons location_world"></i>
                     </div>
                     <div className="description">
-                      <h4 className="info-title">Point1</h4>
+                      <h4 className="info-title">Point One</h4>
                       <p>
-                        The moment you use Now UI Kit, you know you’ve never
+                        The moment you use Now UI Kit, you know you've never
                         felt anything like it. With a single use lets you do
                         more than ever before.
                       </p>
@@ -92,7 +92,7 @@ function Features() {
                       <i className="now-ui-icons sport_user-run"></i>
                     </div>
                     <div className="description">
-                      <h4 className="info-title">Easy to Use</h4>
+                      <h4 className="info-title">Point Two</h4>
                       <p>
                         Divide details about your product or agency work into
                         parts. Write a few lines about each one. A paragraph
@@ -105,7 +105,7 @@ function Features() {
                       <i className="now-ui-icons ui-2_time-alarm"></i>
                     </div>
                     <div className="description">
-                      <h4 className="info-title">Fast Prototyping</h4>
+                      <h4 className="info-title">Point Three</h4>
                       <p>
                         Divide details about your product or agency work into
                         parts. Write a few lines about each one. A paragraph

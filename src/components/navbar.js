@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <Row>
         <Col className={styles.navbarLeft} xs={6}>
-          <Link activeClassName={styles.active} to="/">
+          <Link to="/">
             AGILITY MATTERS
             {/* <span role="img" aria-label="rocket">
                 🚀

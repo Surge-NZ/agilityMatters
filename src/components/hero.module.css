@@ -33,7 +33,7 @@
 .heroRightColumn {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: flex-end;
   /* font-family: "Monserrat"; */
 }
