@@ -39,6 +39,7 @@ function Analysis() {
         </Col>
         <Col>
           <StaticImage
+            className={styles.centered}
             src="../images/current-state-analysis-graph.png"
             alt="Current State Analysis Graph"
             layout="fullWidth"
