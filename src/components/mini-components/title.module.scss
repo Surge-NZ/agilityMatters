@@ -1,0 +1,20 @@
+.titleContainer {
+  text-align: center;
+}
+
+.titleRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleCol {
+  padding: 0;
+}
+
+.title {
+  font-family: Montserrat;
+  font-size: 35px;
+  font-weight: 700;
+  color: #2c2c2c;
+}
