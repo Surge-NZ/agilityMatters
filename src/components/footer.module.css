@@ -12,3 +12,7 @@
   z-index: -1;
   object-fit: cover;
 }
+
+.subTitle {
+  color: #9a9a9a;
+}

@@ -22,5 +22,10 @@
 }
 
 .centered {
+  padding-top: 30px;
   text-align: center;
+}
+
+.row {
+  margin: 20px;
 }

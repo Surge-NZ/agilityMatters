@@ -11,11 +11,11 @@ const Hero = () => {
         <Col md={6} className={styles.heroLeftColumn}>
           <StaticImage
             className={styles.heroImage}
-            src="../images/agility-matters-book-cover.png"
+            src="../images/agility-matters-cover-highres.png"
             alt="Agility Matters Book Cover"
             loading="eager"
-            width={264}
-            // quality={95}
+            width={1500}
+            quality={100}
             formats={["auto", "webp", "avif"]}
             // style={{ marginBottom: `var(--space-3)` }}
           />
