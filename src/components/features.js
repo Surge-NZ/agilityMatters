@@ -36,7 +36,7 @@ function Features() {
               </Col>
               <Col md="4">
                 <div className="info info-hover">
-                  <div className="icon icon-success">
+                  <div className="icon icon-primary">
                     <i className="now-ui-icons business_chart-pie-36"></i>
                   </div>
                   <h4 className="info-title">Agility Transformation</h4>
@@ -48,7 +48,7 @@ function Features() {
               </Col>
               <Col md="4">
                 <div className="info info-hover">
-                  <div className="icon icon-warning">
+                  <div className="icon icon-primary">
                     <i className="now-ui-icons design-2_ruler-pencil"></i>
                   </div>
                   <h4 className="info-title">Adaptive Strategy</h4>
