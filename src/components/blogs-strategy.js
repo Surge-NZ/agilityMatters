@@ -11,7 +11,9 @@ function BlogsStrategy() {
       <Container>
         <Row>
           <Col className="ml-auto mr-auto" md="10">
-            <h2 className="title">Adaptive Strategy Models</h2>
+            <h2 className={styles.centered}>
+              <b>Adaptive Strategy Models</b>
+            </h2>
             <Card className="card-plain card-blog">
               <Row>
                 <Col md="4">

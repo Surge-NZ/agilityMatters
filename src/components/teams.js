@@ -114,7 +114,8 @@ function Teams() {
           </p>
           <blockquote className={styles.blockquote}>
             <p className={styles.quoteText}>
-              Use our Interactive BAR to analyse your teams performance
+              Need Help? We have a Number of dedicated Business Analysts and
+              Consultants
             </p>
           </blockquote>
           {/* <div className={styles.buttonContainer}></div> */}

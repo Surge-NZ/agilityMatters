@@ -10,7 +10,9 @@ function BlogsValue() {
       <Container>
         <Row>
           <Col className="ml-auto mr-auto" md="10">
-            <h2 className={styles.centered}>Customer Value Fundamentals</h2>
+            <h2 className={styles.centered}>
+              <b>Customer Value Fundamentals</b>
+            </h2>
             <br></br>
             <Card className="card-plain card-blog">
               <Row>
