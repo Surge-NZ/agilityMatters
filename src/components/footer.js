@@ -39,10 +39,10 @@ function Footer() {
                 --<small>/mo</small>
               </CardTitle>
               <ul>
-                <li>1 GB of space</li>
-                <li>Limited Support</li>
-                <li>Support at $25/hour</li>
-                <li>Limited cloud access</li>
+                <li>Interactive BAR</li>
+                <li>3 Horizon Strategy</li>
+                <li>Kaizen Transformation</li>
+                <li>Tailored for YOUR Organisation</li>
               </ul>
               <Button
                 className="btn-round"
@@ -68,10 +68,10 @@ function Footer() {
                 --<small>/mo</small>
               </CardTitle>
               <ul>
-                <li>5 GB of space</li>
-                <li>UnLimited Support</li>
-                <li>Unlimited Downloads</li>
-                <li>Full cloud access</li>
+                <li>High Performance Program</li>
+                <li>Stategy to Perform</li>
+                <li>Test Creation and Result Monitor</li>
+                <li>Recommendations</li>
               </ul>
               <Button
                 className="btn-neutral btn-round"
