@@ -38,12 +38,12 @@ function CustomerValueMetrics() {
             </Button>
           </div>
         </Col>
-        <Col>
+        <Col className={styles.centered}>
           <StaticImage
-            className={styles.centered}
+           
             src="../images/customer-value-metrics.png"
             alt="Customer Value Metrics Graph"
-            layout="fullWidth"
+        
           />
         </Col>
       </Row>
