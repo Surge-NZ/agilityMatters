@@ -16,7 +16,7 @@ function Features() {
               <Col className="ml-auto mr-auto" md="12">
                 <h2 className="title">Fundamental Business Practices</h2>
                 <h4 className="description">
-                  Are you wantng to optimise you business and move it forward in
+                  Are you wanting to optimise your business and move it forward in
                   an agile world?
                 </h4>
               </Col>
