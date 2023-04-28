@@ -67,11 +67,10 @@ function Features() {
             <Container>
               <Row>
                 <Col md="6">
-                  <h2 className="title">{`AGILITY MATTERS \n
-
-                  by Michael Law`}</h2>
+                  <h2 className="title">AGILITY MATTERS {<br />} by Michael Law</h2>
+                
                   <p>
-                    Blurb of the book/ Overview on how it helps and what it
+                    Blurb of the book / Overview on how it helps and what it
                     covers.Buy it so you can be the best Etc etc Etc
                   </p>
                   <div className="info info-horizontal">
