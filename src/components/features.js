@@ -118,11 +118,11 @@ function Features() {
                   <div className="tablet-container"></div>
                   <StaticImage
                     //   className={styles.heroImage}
-                    src="../images/agility-matters-book-cover.png"
+                    src="../images/agility-matters-cover-highres.png"
                     alt="Agility Matters Book Cover"
                     loading="eager"
                     width={364}
-                    quality={95}
+                    quality={100}
                     formats={["auto", "webp", "avif"]}
                     //   style={{ marginBottom: `var(--space-3)` }}
                   />

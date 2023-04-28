@@ -10,84 +10,78 @@ function Framework() {
       <Row md="12">
         <Col md="6">
           <h2>
-            <b>Current State Analysis</b>
+            <b>ASO Model</b>
           </h2>
           <p>
-            A Current State Analysis is an important step in understanding where
-            your organisation currently stands in terms of agility. This
-            Analysis involves assessing current processes, systems, and
-            organisational structure to identify areas of inefficiency and
-            potential roadblocks to becoming more agile By Gaining a clear
-            understanding of the current state, you can create a comprehensive
-            plan for agility transformation that address the specific needs of
-            your organisation. Additionally, conducting a current state analysis
-            allows you to benchmark progress and measure the impact of your
-            transformation efforts over time. Overall, it is a key understanding
-            where you are now, so you can move forward where you want to be.
+            The “Amber Seeking Orange” is a term used to describe organisations
+            that are actively working to become more agile but are not yet fully
+            there, The term is a reference to the “Amber” and “Orange” levels of
+            the Cynefin framework, which is a system for categorising and
+            solving problems. The Amber level represents “complicated”
+            situations that can be understood through analysis and expertise,
+            while the Orange level represents “Complex” situations that require
+            experimentation and adaptation. An Organisation that is “Amber
+            Seeking Orange” is one the recognises the need for change and is
+            actively working to become more Agile, but has not yet fully
+            embraced the principles of complexity and adaptation. Such
+            organisations are in a state of transition and continuous
+            improvement, but the journey is not yet complete.
           </p>
           <blockquote className={styles.blockquote}>
             <p className={styles.quoteText}>
-              For a free Current State analysis insight, please Utilise our
-              Interactive BAR to give you a Measure of your Organisation
+              For a ASO Framework Model, please take a look at our framework
+              model (as seen in Agility Matters)
             </p>
           </blockquote>
           <div className={styles.buttonContainer}>
             <Button color="F96332" className={styles.button}>
-              Free Analysis Tool
+              Free ASO Framework Model Tool
             </Button>
           </div>
-        </Col>
-        <Col md="6">
-          <StaticImage
-            src="../images/current-state-analysis-graph.png"
-            alt="Current State Analysis Graph"
-            layout="fullWidth"
-            //   className={styles.backgroundImage}
-          />
         </Col>
         <Col md="6">
           <h2>
-            <b>Current State Analysis</b>
+            <b>OSG Model</b>
           </h2>
           <p>
-            A Current State Analysis is an important step in understanding where
-            your organisation currently stands in terms of agility. This
-            Analysis involves assessing current processes, systems, and
-            organisational structure to identify areas of inefficiency and
-            potential roadblocks to becoming more agile By Gaining a clear
-            understanding of the current state, you can create a comprehensive
-            plan for agility transformation that address the specific needs of
-            your organisation. Additionally, conducting a current state analysis
-            allows you to benchmark progress and measure the impact of your
-            transformation efforts over time. Overall, it is a key understanding
-            where you are now, so you can move forward where you want to be.
+            The “Orange Seeking Green” is a term used to describe organisations
+            that have successfully embraced the principles of Agility and are
+            now striving to become adaptive. The term is a reference to the
+            “Orange” and “Green” levels of the Cynefin Framework. The Orange
+            level represents “complex” situations that require experimentation
+            and adaptation, while the Green level represents “chaotic”
+            situations that require a sense and response approach. An
+            Organisation that is “Orange Seeking Green” is one that has
+            successully implemented Agile practices and is now focused on
+            becoming truly adaptive by embracing a culture of experimentation
+            and continuous learning. This type of organisation is able to
+            respond quickly and effectively to rapidly changing business
+            environments and customer needs. They are continuous learning,
+            continuous improvement, and experimentation are the core components
+            of the day to day operations and decision making.
           </p>
           <blockquote className={styles.blockquote}>
             <p className={styles.quoteText}>
-              For a free Current State analysis insight, please Utilise our
-              Interactive BAR to give you a Measure of your Organisation
+              For a OSG Framework Model, please take a look at our framework
+              model (as seen in Agility Matters){" "}
             </p>
           </blockquote>
           <div className={styles.buttonContainer}>
             <Button color="F96332" className={styles.button}>
-              Free Analysis Tool
+              Free OSG Framework Model Tool
             </Button>
           </div>
         </Col>
-        <Col md="6">
+        <Col className={styles.centered}>
           <StaticImage
-            src="../images/current-state-analysis-graph.png"
-            alt="Current State Analysis Graph"
+            // className={styles.centered}
+            src="../images/agility-canvas.png"
+            alt="Agility Canvas"
             layout="fullWidth"
             //   className={styles.backgroundImage}
           />
+          <h4>ASO Framework Model (as seen in Agility Matters)</h4>
         </Col>
-        <StaticImage
-          src="../images/ASOFramework.png"
-          alt="ASO Framework Graph"
-          layout="fullWidth"
-          //   className={styles.backgroundImage}
-        />
       </Row>
     </Container>
   );

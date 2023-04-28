@@ -40,10 +40,10 @@ function Teams() {
         </Col>
         <Col>
           <StaticImage
-            src="../images/current-state-analysis-graph.png"
-            alt="Current State Analysis Graph"
+            className={styles.centered}
+            src="../images/teams.png"
+            alt="Image of a team of people"
             layout="fullWidth"
-            //   className={styles.backgroundImage}
           />
         </Col>
       </Row>
@@ -51,8 +51,9 @@ function Teams() {
       <Row>
         <Col>
           <StaticImage
-            src="../images/current-state-analysis-graph.png"
-            alt="Current State Analysis Graph"
+            className={styles.centered}
+            src="../images/agility-canvas.png"
+            alt="Agility Canvas"
             layout="fullWidth"
             //   className={styles.backgroundImage}
           />

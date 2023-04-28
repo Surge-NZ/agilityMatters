@@ -10,20 +10,20 @@ function CustomerValueMetrics() {
       <Row>
         <Col>
           <h2>
-            <b>Current State Analysis</b>
+            <b>Customer Value Metrics</b>
           </h2>
           <p>
-            A Current State Analysis is an important step in understanding where
-            your organisation currently stands in terms of agility. This
-            Analysis involves assessing current processes, systems, and
-            organisational structure to identify areas of inefficiency and
-            potential roadblocks to becoming more agile By Gaining a clear
-            understanding of the current state, you can create a comprehensive
-            plan for agility transformation that address the specific needs of
-            your organisation. Additionally, conducting a current state analysis
-            allows you to benchmark progress and measure the impact of your
-            transformation efforts over time. Overall, it is a key understanding
-            where you are now, so you can move forward where you want to be.
+            Customer value metrics are a set of measurements used to assess the
+            value that a company delivers to its customers. These metrics focus
+            on the customers' perception of value, as opposed to the company's
+            internal performance. Some common examples of customer value metrics
+            include customer satisfaction, customer retention, and customer
+            lifetime value. These metrics allow organizations to understand how
+            well they are meeting their customers' needs and expectations and to
+            identify areas for improvement. By regularly tracking and analyzing
+            customer value metrics, organizations can make data-driven decisions
+            to improve their products and services, increase customer loyalty
+            and ultimately drive business growth.
           </p>
           <blockquote className={styles.blockquote}>
             <p className={styles.quoteText}>
@@ -39,10 +39,10 @@ function CustomerValueMetrics() {
         </Col>
         <Col>
           <StaticImage
+            className={styles.centered}
             src="../images/customer-value-metrics.png"
             alt="Customer Value Metrics Graph"
             layout="fullWidth"
-            //   className={styles.backgroundImage}
           />
         </Col>
       </Row>

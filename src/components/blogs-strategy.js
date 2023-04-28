@@ -12,7 +12,6 @@ function BlogsStrategy() {
         <Row>
           <Col className="ml-auto mr-auto" md="10">
             <h2 className="title">Adaptive Strategy Models</h2>
-            <br></br>
             <Card className="card-plain card-blog">
               <Row>
                 <Col md="4">

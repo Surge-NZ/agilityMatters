@@ -43,7 +43,6 @@ function Analysis() {
             src="../images/current-state-analysis-graph.png"
             alt="Current State Analysis Graph"
             layout="fullWidth"
-            //   className={styles.backgroundImage}
           />
         </Col>
       </Row>
