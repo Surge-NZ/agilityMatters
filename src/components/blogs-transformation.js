@@ -9,8 +9,10 @@ function BlogsTransformation() {
     <div className="blogs-3">
       <Container>
         <Row>
-          <Col className="ml-auto mr-auto" md="10">
-            <h2 className="title">How to Achieve Agility Transformation</h2>
+          <Col className="ml-auto mr-auto" md="12">
+            <h2 className={styles.centered}>
+              <b>How to Achieve Agility Transformation</b>
+            </h2>
             <br></br>
             <Card className="card-plain card-blog">
               <Row>

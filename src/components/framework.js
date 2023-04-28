@@ -72,16 +72,18 @@ function Framework() {
             </Button>
           </div>
         </Col>
-        <Col className={styles.centered}>
+        <Row className={styles.centered}>
           <StaticImage
-            // className={styles.centered}
-            src="../images/agility-canvas.png"
+            className={styles.centered}
+            src="../images/ASOframework.png"
             alt="Agility Canvas"
             layout="fullWidth"
             //   className={styles.backgroundImage}
           />
-          <h4>ASO Framework Model (as seen in Agility Matters)</h4>
-        </Col>
+          <h4 className={styles.centered}>
+            ASO Framework Model (as seen in Agility Matters)
+          </h4>
+        </Row>
       </Row>
     </Container>
   );
