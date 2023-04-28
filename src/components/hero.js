@@ -14,8 +14,8 @@ const Hero = () => {
             src="../images/agility-matters-cover-highres.png"
             alt="Agility Matters Book Cover"
             loading="eager"
-            width={1500}
             quality={100}
+            placeholder="blurred"
             formats={["auto", "webp", "avif"]}
             // style={{ marginBottom: `var(--space-3)` }}
           />
