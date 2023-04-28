@@ -74,7 +74,7 @@ function Features() {
                     covers.Buy it so you can be the best Etc etc Etc
                   </p>
                   <div className="info info-horizontal">
-                    <div className="icon icon-info icon-circle">
+                    <div className="icon icon-primary icon-circle">
                       <i className="now-ui-icons location_world"></i>
                     </div>
                     <div className="description">
@@ -87,7 +87,7 @@ function Features() {
                     </div>
                   </div>
                   <div className="info info-horizontal">
-                    <div className="icon icon-info icon-circle">
+                    <div className="icon icon-primary icon-circle">
                       <i className="now-ui-icons sport_user-run"></i>
                     </div>
                     <div className="description">
@@ -100,7 +100,7 @@ function Features() {
                     </div>
                   </div>
                   <div className="info info-horizontal">
-                    <div className="icon icon-info icon-circle">
+                    <div className="icon icon-primary icon-circle">
                       <i className="now-ui-icons ui-2_time-alarm"></i>
                     </div>
                     <div className="description">
