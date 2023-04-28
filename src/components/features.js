@@ -114,18 +114,19 @@ function Features() {
                     </div>
                   </div>
                 </Col>
-                <Col md="5">
-                  <div className="tablet-container"></div>
-                  <StaticImage
-                    //   className={styles.heroImage}
-                    src="../images/agility-matters-cover-highres.png"
-                    alt="Agility Matters Book Cover"
-                    loading="eager"
-                    width={364}
-                    quality={100}
-                    formats={["auto", "webp", "avif"]}
-                    //   style={{ marginBottom: `var(--space-3)` }}
-                  />
+                <Col md="6">
+                  <div className="tablet-container">
+                    <StaticImage
+                      //   className={styles.heroImage}
+                      src="../images/agility-matters-cover-highres.png"
+                      alt="Agility Matters Book Cover"
+                      loading="eager"
+                      width={1500}
+                      quality={95}
+                      formats={["auto", "webp", "avif"]}
+                      //   style={{ marginBottom: `var(--space-3)` }}
+                    />
+                  </div>
                 </Col>
               </Row>
             </Container>
