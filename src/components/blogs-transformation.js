@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card, CardTitle } from "reactstrap";
 import { StaticImage } from "gatsby-plugin-image";
-
 import * as styles from "./blogs.module.css";
 
 function BlogsTransformation() {

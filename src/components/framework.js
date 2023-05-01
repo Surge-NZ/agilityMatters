@@ -8,10 +8,12 @@ function Framework() {
   return (
     <Container>
       <Row md="12">
+        <h2 className={styles.centeredTitle}>Optimal Framework</h2>
+
         <Col md="6">
-          <h2>
+          <h3>
             <b>ASO Model</b>
-          </h2>
+          </h3>
           <p>
             The “Amber Seeking Orange” is a term used to describe organisations
             that are actively working to become more agile but are not yet fully
@@ -40,9 +42,9 @@ function Framework() {
           </div>
         </Col>
         <Col md="6">
-          <h2>
+          <h3>
             <b>OSG Model</b>
-          </h2>
+          </h3>
           <p>
             The “Orange Seeking Green” is a term used to describe organisations
             that have successfully embraced the principles of Agility and are

@@ -1,7 +1,8 @@
 .blockquote {
   border: 1px solid #f96332;
-  border-radius: 4px;
-  margin: 20px 0;
+  border-radius: 0px;
+  border-width: 1.5px;
+  margin-top: 30px;
   padding: 20px;
   text-align: left; /* Align blockquote to the left */
 }
@@ -24,6 +25,17 @@
 .centered {
   display: flex;
   align-items: center;
+  /* align-content: center;
+  text-align: center; */
+  justify-content: center;
+}
+.centeredTitle {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  /* align-content: center;
+  text-align: center; */
+  justify-content: center;
 }
 
 .row {
