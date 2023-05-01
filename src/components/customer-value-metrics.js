@@ -27,9 +27,9 @@ function CustomerValueMetrics() {
           </p>
           <blockquote className={styles.blockquote}>
             <p className={styles.quoteText}>
-              For a insight into your organisatiopns customer value metrics ,
+              For an insight into your organisations customer value metrics,
               please Utilise our Interactive BAR to give you a Measure of your
-              Organisation
+              Organisation.
             </p>
           </blockquote>
           <div className={styles.buttonContainer}>
