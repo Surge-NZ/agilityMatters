@@ -11,7 +11,9 @@
 
 .heroImage {
   width: 30vw;
-/*   height: 100vh; */
+  height: auto;
+  object-fit: contain;
+  /*   height: 100vh; */
 }
 
 /* @media (min-width: 768px) {
