@@ -10,7 +10,7 @@
 }
 
 .heroImage {
-  width: 30vw;
+/*   width: 30vw; */
   height: auto;
   object-fit: contain;
   /*   height: 100vh; */
