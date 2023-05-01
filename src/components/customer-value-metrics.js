@@ -40,10 +40,8 @@ function CustomerValueMetrics() {
         </Col>
         <Col className={styles.centered}>
           <StaticImage
-           
             src="../images/customer-value-metrics.png"
             alt="Customer Value Metrics Graph"
-        
           />
         </Col>
       </Row>
