@@ -7,12 +7,6 @@ import { Button, Card, CardBody, CardTitle, Row, Col } from "reactstrap";
 function Footer() {
   return (
     <Col className={styles.footerWrapper}>
-      <StaticImage
-        src="../images/footer-background.png"
-        alt="Footer Background Image"
-        layout="fullWidth"
-        className={styles.backgroundImage}
-      />
       <Row className="justify-content-center">
         <StaticImage
           src="../images/footer-background.png"
