@@ -10,7 +10,10 @@ function BlogsTransformation() {
         <Row>
           <Col className="ml-auto mr-auto" md="12">
             <h2 className={styles.centered}>
-              <b>How to Achieve Agility Transformation</b>
+              <b>
+                How to Achieve Agility <br />
+                Transformation
+              </b>
             </h2>
             <br></br>
             <Card className="card-plain card-blog">

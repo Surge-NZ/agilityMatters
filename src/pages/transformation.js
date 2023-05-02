@@ -14,6 +14,7 @@ const TransformationPage = () => {
         content="Empowering your business to navigate change with speed and flexibility"
       />
       <TwoColBlockButtonImage />
+      {/* add props to above component */}
       <BlogsTransformation />
       <Framework />
       <Footer />
