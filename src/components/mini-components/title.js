@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import * as styles from "./title.module.scss";
+import * as styles from "./title.module.css";
 
 const Title = ({ text }) => {
   return (
