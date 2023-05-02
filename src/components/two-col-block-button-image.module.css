@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  padding: 2em;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+.columnLeft {
+  margin: 0;
+}
+.columnRight {
+  /* display: flex; */
+  /* margin: 0; */
+  /* align-items: center; */
+  /* justify-items: center; */
+  /* justify-content: center; */
+}
+
+.centered {
+}
