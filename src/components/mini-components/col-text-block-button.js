@@ -14,7 +14,7 @@ const ColTextBlockButton = ({
       <h2 className={styles.title}>{title}</h2>
       <p className={styles.paragraph}>{paragraph}</p>
       <blockquote className={styles.blockquote}>{quoteText}</blockquote>
-      <Link to={buttonLink}>
+      <Link className={styles.linkTo} to={buttonLink}>
         <button className={styles.button}>{buttonText}</button>
       </Link>
     </div>

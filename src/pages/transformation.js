@@ -5,8 +5,6 @@ import Analysis from "../components/analysis";
 import Footer from "../components/footer";
 import Framework from "../components/framework";
 import BlogsTransformation from "../components/blogs-transformation";
-import FrameworkNew from "../components/framework-new";
-
 // import Pricing from "../components/pricing.js";
 
 // background-image:url(../../img/bg26.jpg)
@@ -21,7 +19,6 @@ const TransformationPage = () => {
       />
       <Analysis />
       <BlogsTransformation />
-      <FrameworkNew />
       <Framework />
       <Footer />
     </Layout>

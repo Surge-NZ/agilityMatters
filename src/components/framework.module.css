@@ -1,0 +1,13 @@
+/* Framework Component v2  */
+
+.container {
+  display: flex;
+  margin: 5%;
+}
+
+.imageTitleSubtitleContainer {
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding: 5% 20% 0 20%;
+}
