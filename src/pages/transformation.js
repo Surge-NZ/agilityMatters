@@ -18,7 +18,7 @@ const TransformationPage = () => {
         content="Empowering your business to navigate change with speed and flexibility"
       />
       <TwoColBlockButtonImage />
-      <Analysis />
+      {/* <Analysis /> */}
       <BlogsTransformation />
       <Framework />
       <Footer />
