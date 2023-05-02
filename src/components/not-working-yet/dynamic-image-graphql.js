@@ -9,7 +9,7 @@ const DynamicImage = ({
   imageQuality,
   imageFormats,
 }) => {
-  const data = useStaticQuery(graphql`
+/*   const data = useStaticQuery(graphql`
     query {
       images: allFile(filter: { sourceInstanceName: { eq: "images" } }) {
         nodes {
@@ -27,17 +27,17 @@ const DynamicImage = ({
   `);
 
   const imageNode = data.images.nodes.find((node) => node.name === imageName);
-  const image = getImage(imageNode);
+  const image = getImage(imageNode); */
 
   return (
     <div>
-      <GatsbyImage
+{/*       <GatsbyImage
         image={image}
         alt={imageAlt}
         width={imageWidth}
         quality={imageQuality}
         formats={imageFormats}
-      />
+      /> */}
     </div>
   );
 };
