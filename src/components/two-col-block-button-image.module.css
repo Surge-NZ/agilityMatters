@@ -13,12 +13,27 @@
   margin: 0;
 }
 .columnRight {
-  /* display: flex; */
-  /* margin: 0; */
-  /* align-items: center; */
-  /* justify-items: center; */
-  /* justify-content: center; */
+  display: flex;
+  margin: 0;
+  align-self: center;
 }
 
-.centered {
-}
+/* .centered { */
+/* text-align: center;
+  align-items: center;
+  justify-items: center;
+  justify-content: center; */
+
+/* object-fit: contain;
+  opacity: 1;
+
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+} */

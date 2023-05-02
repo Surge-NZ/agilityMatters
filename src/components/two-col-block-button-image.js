@@ -34,9 +34,7 @@ Interactive BAR to give you a Measure of your Organisation"
           alt="Current state analysis image chart"
           placeholder="blurred"
           formats={["auto", "webp", "avif"]}
-          layout="fullWidth"
-          // width="100%"
-          // height="100%"
+          layout="constrained"
           quality={75}
         />
       </Col>
