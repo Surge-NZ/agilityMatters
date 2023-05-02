@@ -5,6 +5,7 @@ import Analysis from "../components/analysis";
 import Footer from "../components/footer";
 import Framework from "../components/framework";
 import BlogsTransformation from "../components/blogs-transformation";
+import TwoColBlockButtonImage from "../components/two-col-block-button-image";
 // import Pricing from "../components/pricing.js";
 
 // background-image:url(../../img/bg26.jpg)
@@ -15,8 +16,8 @@ const TransformationPage = () => {
       <Header
         title="Agility Transformation"
         content="Empowering your business to navigate change with speed and flexibility"
-        // backgroundImage={"url(/images/)"}
       />
+      <TwoColBlockButtonImage />
       <Analysis />
       <BlogsTransformation />
       <Framework />
