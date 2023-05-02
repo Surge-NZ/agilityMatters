@@ -15,7 +15,7 @@ const Navbar = () => {
               </span> */}
           </Link>
         </Col>
-        <Col xs={6} className={styles.navbarRight}>
+{/*         <Col xs={6} className={styles.navbarRight}>
           <Link activeClassName={styles.active} to="/transformation">
             transformation
           </Link>
@@ -28,7 +28,7 @@ const Navbar = () => {
           <Link activeClassName={styles.active} to="/teams">
             teams
           </Link>
-        </Col>
+        </Col> */}
       </Row>
     </nav>
   );
