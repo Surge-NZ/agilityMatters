@@ -10,7 +10,7 @@ const Hero = () => {
       <Row>
         <Col md={6} className={styles.heroLeftColumn}>
           <StaticImage
-            //className={styles.heroImage}
+            className={styles.heroImage}
             src="../images/agility-matters-cover-highres.png"
             alt="Agility Matters Book Cover"
             loading="eager"
