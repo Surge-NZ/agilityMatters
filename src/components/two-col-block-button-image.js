@@ -4,7 +4,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import ColTextBlockButton from "./mini-components/col-text-block-button";
 import * as styles from "./two-col-block-button-image.module.css";
 
-const TwoColBlockButtonImage = ({}) => {
+const TwoColBlockButtonImage = () => {
   return (
     <Row md={12} className={styles.container}>
       <Col md={6} className={styles.columnLeft}>
