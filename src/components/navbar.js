@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <Row>
-        <Col className={styles.navbarLeft} xs={6}>
+        <Col className={styles.navbarLeft} xs={8}>
           <Link className={styles.homeLink} to="/">
             AGILITY MATTERS
             {/* <span role="img" aria-label="rocket">
