@@ -38,6 +38,45 @@ const Hero = () => {
 
 export default Hero;
 
+// REFACTORING:
+// import React from "react";
+// import { Container, Row, Col } from "reactstrap";
+// import { StaticImage } from "gatsby-plugin-image";
+// import { Text, Button } from "reactstrap";
+
+// const Hero2 = ({ headerText, paragraphText, buttonText }) => {
+//   return (
+//     <Container>
+//       <Row gutters={0}>
+//         <Col xs={12} md={6}>
+//           <StaticImage
+//             src="../images/agility-matters-cover-highres.png"
+//             alt="Agility Matters Book Cover"
+//             loading="eager"
+//             quality={100}
+//             placeholder="blurred"
+//             formats={["auto", "webp", "avif"]}
+//             style={{ marginBottom: `var(--space-3)` }}
+//           />
+//         </Col>
+//         <Col xs={12} md={6}>
+//           <Container fluid>
+//             <div>
+//               <h1>{headerText}</h1>
+//               <div>
+//                 <p>{paragraphText}</p>
+//                 <Button>{buttonText}</Button>
+//               </div>
+//             </div>
+//           </Container>
+//         </Col>
+//       </Row>
+//     </Container>
+//   );
+// };
+
+// export default Hero2;
+
 // import React from "react";
 // import { Container, Row, Col } from "reactstrap";
 // import { StaticImage } from "gatsby-plugin-image";
