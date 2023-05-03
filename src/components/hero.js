@@ -11,7 +11,7 @@ const Hero = () => {
         <Col md={6} className={styles.heroLeftColumn}>
           <StaticImage
             className={styles.heroImage}
-            src="../images/agility-matters-cover-highres.png"
+            src="../images/1682629618.png"
             alt="Agility Matters Book Cover"
             loading="eager"
             quality={100}
