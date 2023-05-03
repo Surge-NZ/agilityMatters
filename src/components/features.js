@@ -156,7 +156,7 @@ function Features() {
                   </Button>
                 </Col>
               </Row>
-              <Row>
+              <Row className={styles.videoAndTestimonials}>
                 <Col md={6}>
                   {/* <VideoComponent /> */}
                   <div className="video">
@@ -179,6 +179,12 @@ function Features() {
                     “this is a book that has a beginning and an end. my
                     favourite type of book. the middle was also present and it
                     was okay ”
+                  </p>
+                  <p>• Charles Fake</p>
+                  <p>
+                    “this book was okay but there were no dinosaurs in it and
+                    that was kinda disappointing, i wish there was more wheres
+                    wally so i could locate him”
                   </p>
                   <p>• Charles Fake</p>
                 </Col>

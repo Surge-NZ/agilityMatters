@@ -105,3 +105,8 @@
   font-weight: 400;
   border-radius: 1vw;
 }
+
+.videoAndTestimonials {
+  background-color: rgba(217, 217, 217, 0.38);
+  padding: 3vw;
+}
