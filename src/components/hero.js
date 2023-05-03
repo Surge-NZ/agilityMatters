@@ -26,9 +26,7 @@ const Hero = () => {
           <h1>AGILITY MATTERS</h1>
 
           <p>
-            In the software business, it is crucial to be agile in order to stay
-            competitive and deliver new features and updates to customers in a
-            timely manner.
+            A Novel about adapting an organisation to respond to customer needs, flexibly.
           </p>
 
           <Button className={styles.heroButton} aria-label="Coming Soon">

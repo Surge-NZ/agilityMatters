@@ -1,10 +1,15 @@
 import React from "react";
 
 function ParagraphText() {
-  const text = `This is the Author. 
-    Facts and Information about him. \nHe can speak and teach you things, he’ll even travel to Russia! \nHe has learnt all of this: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  const text = `Join Julie, a new General Manager, as she takes on the challenge of transforming NZFS, a company plagued by the all-too-familiar issues that afflict large organisations. 
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerci.`;
+  Drawing upon a wealth of real-life case studies, this 
+  captivating story follows Julie as she measures the company’s current state, identifies pain points, and enhances customer value. With each iteration, she brings her department closer to success, proving that change is indeed possible.
+  
+  Blending fiction with the author’s firsthand encounters, this compelling tale offers not only a gripping narrative but also the academic foundation that explains why these pain points arise and how they can be resolved. This unique combination of storytelling and practical insight will keep you hooked from the first page to the last.
+  
+  Will Julie’s pursuit of change usher in a new era for NZFS?
+  `;
 
   const paragraphs = text
     .split("\n")
