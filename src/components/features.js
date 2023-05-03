@@ -157,13 +157,28 @@ function Features() {
                 </Col>
               </Row>
               <Row>
-                <Col>
+                <Col md={6}>
                   {/* <VideoComponent /> */}
                   <video controls>
                     <source src={Agil} type="video/mp4" />
                   </video>
+                  <h3>Agility Matters YouTube</h3>
+                  <Button
+                    className={styles.heroButton}
+                    aria-label="Coming Soon"
+                  >
+                    Watch More
+                  </Button>
                 </Col>
-                <Col></Col>
+                <Col md={6}>
+                  <h2>Praise for Agility Matters</h2>
+                  <p>
+                    “this is a book that has a beginning and an end. my
+                    favourite type of book. the middle was also present and it
+                    was okay ”
+                  </p>
+                  <p>• Charles Fake</p>
+                </Col>
               </Row>
             </Container>
           </div>
