@@ -137,8 +137,8 @@ function Features() {
                     </div>
                   </div>
                 </Col>
-                <Col md="6">
-                  <div className="tablet-container d-flex align-items-center">
+                <Col md="6" className="tablet-container d-flex align-items-center" >
+                  
                     <StaticImage
                       // className={styles.heroImage}
                       src="../images/1682629796.png"
@@ -149,17 +149,21 @@ function Features() {
                       quality={100}
                       placeholder="blurred"
                       formats={["auto", "webp", "avif"]}
-                      style={{ margin: "0 auto" }}
+                     
                     />
-                  </div>
-
+                </Col>
+                  
+                  
+                <Row>
+                  <Col>
                   <Button
                     className={styles.heroButton}
                     aria-label="Coming Soon"
                   >
                     COMING SOON
                   </Button>
-                </Col>
+                  </Col>
+                </Row>
               </Row>
          
             </Container>

@@ -61,6 +61,21 @@ potential, with a focus on customer value.
               
               </Col>
               </Row>
+              <Row>
+              <Col className="ml-auto mr-auto" md="12">
+              <Button 
+                    style={{ 
+                      marginLeft: "2em",
+                      alignItems:"right"
+                     }}
+                
+                    className={styles.heroButton}
+                    aria-label="Coming Soon"
+                  >
+                    COMING SOON
+                  </Button>
+              </Col>
+              </Row>
           </Container>
         </div>
     </div>
