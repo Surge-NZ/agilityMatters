@@ -190,7 +190,10 @@ function Features() {
                   <p>• Charles Fake</p>
                 </Col>
               </Row>
-              <Row className={styles2.featuresContainer}>
+              <Row
+                className={styles2.featuresContainer}
+                style={{ margin: "2em" }}
+              >
                 <Col md={6}>
                   <StaticImage
                     className={styles.heroImage}
@@ -205,8 +208,8 @@ function Features() {
                 <Col md={6} className={styles2.columnRight}>
                   <h2>Michael Law - DGAF</h2>
                   <ParagraphText />
-
                   <Button
+                    style={{ marginLeft: "2em" }}
                     className={styles.heroButton}
                     aria-label="Coming Soon"
                   >

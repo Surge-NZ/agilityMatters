@@ -1,6 +1,6 @@
-import React from "react"
-import { Container, Row, Col } from "reactstrap"
-import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import React from "react";
+import { Container, Row, Col } from "reactstrap";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { useStaticQuery, graphql } from "gatsby";
 import DynamicImage from "../components/not-working-yet/dynamic-image-graphql"
 
@@ -28,8 +28,7 @@ const About = () => {
           </Container>
         </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
-
+export default About;

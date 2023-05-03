@@ -1,7 +1,6 @@
 .featuresContainer {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
   justify-content: center;
   width: 100%;
   padding: 2em;
@@ -14,9 +13,7 @@
 }
 .columnRight {
   padding: 2em;
-  display: flex;
   margin: 0;
-  color: red;
   align-self: left;
   text-align: left;
 }
