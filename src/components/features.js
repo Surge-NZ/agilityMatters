@@ -160,7 +160,7 @@ function Features() {
                 <Col md={6}>
                   {/* <VideoComponent /> */}
                   <div className="video">
-                    <video controls>
+                    <video controls width="400" height="200">
                       <source src={Agil} type="video/mp4" />
                     </video>
                   </div>
