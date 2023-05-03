@@ -4,6 +4,7 @@ import Hero from "../components/hero";
 // import Hero2 from "../components/hero2";
 import Features from "../components/features";
 import About from "../components/about"
+import Praise from "../components/praise"
 
 
 const IndexPage = () => {
@@ -19,6 +20,7 @@ const IndexPage = () => {
       <Hero />
       
       <Features />
+      <Praise />
       <About />
     </Layout>
   );

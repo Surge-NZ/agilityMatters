@@ -22,7 +22,7 @@ const About = () => {
               />
               
               </Col>
-              <Col className="ml-auto" md="6">
+              <Col className="ml-auto" md="8">
               <h2>Michael Law - DGAF</h2>
                   <ParagraphText />
                   <Button
