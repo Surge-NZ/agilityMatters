@@ -1,8 +1,10 @@
 import React from "react";
-import { Container, Row, Col } from "reactstrap";
+import { Button, Container, Row, Col } from "reactstrap";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { useStaticQuery, graphql } from "gatsby";
 import DynamicImage from "../components/not-working-yet/dynamic-image-graphql"
+import ParagraphText from "./paragraph-text";
+import * as styles from "./hero.module.css";
 
 const About = () => {
 
@@ -21,8 +23,16 @@ const About = () => {
               
               </Col>
               <Col className="ml-auto" md="6">
-
-      <h1>ABOUT</h1>
+              <h2>Michael Law - DGAF</h2>
+                  <ParagraphText />
+                  <Button
+                    style={{ marginLeft: "2em" }}
+                    className={styles.heroButton}
+                    aria-label="Coming Soon"
+                  >
+                    COMING SOON
+                  </Button>
+         
               </Col>
             </Row>
           </Container>

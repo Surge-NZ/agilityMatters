@@ -8,13 +8,17 @@ import * as styles2 from "./features.module.css";
 // core components
 // import VideoComponent from "./video-component";
 import Agil from "../assets/video/agil.mp4";
-import ParagraphText from "./paragraph-text";
+
 
 function Features() {
   return (
     <>
-      <div className="cd-section" id="features">
-        <div className="features-1">
+      <div className="cd-section" id="features"
+        >
+        <div className="features-1"
+        style={{
+          padding: "50px 0px 0px 0px",
+        }}>
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="12">
@@ -188,33 +192,6 @@ function Features() {
                     wally so i could locate him”
                   </p>
                   <p>• Charles Fake</p>
-                </Col>
-              </Row>
-              <Row
-                className={styles2.featuresContainer}
-                style={{ margin: "2em" }}
-              >
-                <Col md={6}>
-                  <StaticImage
-                    className={styles.heroImage}
-                    src="../images/mike.png"
-                    alt="Mike"
-                    loading="eager"
-                    quality={100}
-                    placeholder="blurred"
-                    formats={["auto", "webp", "avif"]}
-                  />
-                </Col>
-                <Col md={6} className={styles2.columnRight}>
-                  <h2>Michael Law - DGAF</h2>
-                  <ParagraphText />
-                  <Button
-                    style={{ marginLeft: "2em" }}
-                    className={styles.heroButton}
-                    aria-label="Coming Soon"
-                  >
-                    COMING SOON
-                  </Button>
                 </Col>
               </Row>
             </Container>
