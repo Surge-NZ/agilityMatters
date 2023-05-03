@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col } from "reactstrap";
+import { Button, Row, Col } from "reactstrap";
 import { StaticImage } from "gatsby-plugin-image";
 
 import * as styles from "./hero.module.css";
@@ -17,19 +17,23 @@ const Hero = () => {
             quality={100}
             placeholder="blurred"
             formats={["auto", "webp", "avif"]}
+
             // style={{ marginBottom: `var(--space-3)` }}
           />
         </Col>
+
         <Col md={6} className={styles.heroRightColumn}>
           <h1>AGILITY MATTERS</h1>
+
           <p>
             In the software business, it is crucial to be agile in order to stay
             competitive and deliver new features and updates to customers in a
             timely manner.
           </p>
-          <button className={styles.heroButton} aria-label="Order Now">
+
+          <Button className={styles.heroButton} aria-label="Order Now">
             ORDER NOW
-          </button>
+          </Button>
         </Col>
       </Row>
     </div>

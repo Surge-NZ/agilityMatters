@@ -1,12 +1,12 @@
 import React from "react";
-import { Container, Row, Col } from "reactstrap";
+import PropTypes from "prop-types";
+import { Container, Row, Col, Button } from "reactstrap";
 import { StaticImage } from "gatsby-plugin-image";
-import { Text, Button } from "reactstrap";
 
 const Hero2 = ({ headerText, paragraphText, buttonText }) => {
   return (
     <Container>
-      <Row gutters={0}>
+      <Row>
         <Col xs={12} md={6}>
           <StaticImage
             src="../images/agility-matters-cover-highres.png"
@@ -19,19 +19,32 @@ const Hero2 = ({ headerText, paragraphText, buttonText }) => {
           />
         </Col>
         <Col xs={12} md={6}>
-          <Container fluid>
-            <div>
+          <section>
+            <header>
               <h1>{headerText}</h1>
-              <div>
-                <p>{paragraphText}</p>
-                <Button>{buttonText}</Button>
-              </div>
+            </header>
+            <div>
+              <p>{paragraphText}</p>
+              <Button>{buttonText}</Button>
             </div>
-          </Container>
+          </section>
         </Col>
       </Row>
     </Container>
   );
+};
+
+Hero2.propTypes = {
+  headerText: PropTypes.string.isRequired,
+  paragraphText: PropTypes.string.isRequired,
+  buttonText: PropTypes.string.isRequired,
+};
+
+Hero2.defaultProps = {
+  headerText: "Default Header Text",
+  paragraphText:
+    "In the software business, it is crucial to be agile in order to stay competitive and deliver new features and updates to customers in a timely manner.",
+  buttonText: "COMING SOON",
 };
 
 export default Hero2;
