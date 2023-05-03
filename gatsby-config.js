@@ -9,10 +9,11 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Agility Matters`,
+    description: `A Novel about adapting an organisation to respond to customer needs, flexibly.`,
+    author: `Michael Law`,
+    siteUrl: `https://agilitymatters.nz`,
+    image: `/favicon2.ico`,
   },
   plugins: [
     `gatsby-plugin-sass`,

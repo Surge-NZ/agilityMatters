@@ -26,7 +26,8 @@ const Hero = () => {
           <h1>AGILITY MATTERS</h1>
 
           <p>
-            A Novel about adapting an organisation to respond to customer needs, flexibly.
+            A Novel about adapting an organisation to respond to customer needs,
+            flexibly.
           </p>
 
           <Button className={styles.heroButton} aria-label="Coming Soon">

@@ -9,16 +9,16 @@ import * as styles2 from "./features.module.css";
 // import VideoComponent from "./video-component";
 import Agil from "../assets/video/agil.mp4";
 
-
 function Features() {
   return (
     <>
-      <div className="cd-section" id="features"
+      <div className="cd-section" id="features">
+        <div
+          className="features-1"
+          style={{
+            padding: "50px 0px 0px 0px",
+          }}
         >
-        <div className="features-1"
-        style={{
-          padding: "50px 0px 0px 0px",
-        }}>
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="12">
@@ -74,7 +74,7 @@ function Features() {
           <div className="features-5">
             <Container>
               <Row>
-                <Col md="6">
+                <Col lg="6">
                   <h2 className="title">
                     AGILITY MATTERS {<br />} by Michael Law
                   </h2>
@@ -137,35 +137,34 @@ function Features() {
                     </div>
                   </div>
                 </Col>
-                <Col md="6" className="tablet-container d-flex align-items-center" >
-                  
-                    <StaticImage
-                      // className={styles.heroImage}
-                      src="../images/1682629796.png"
-                      alt="Agility Matters Book Cover"
-                      loading="eager"
-                      objectFit="contain"
-                      // width={1500}
-                      quality={100}
-                      placeholder="blurred"
-                      formats={["auto", "webp", "avif"]}
-                     
-                    />
+                <Col
+                  lg="6"
+                  className="tablet-container d-flex align-items-center"
+                >
+                  <StaticImage
+                    // className={styles.heroImage}
+                    src="../images/1682629796.png"
+                    alt="Agility Matters Book Cover"
+                    loading="eager"
+                    objectFit="contain"
+                    // width={1500}
+                    quality={100}
+                    placeholder="blurred"
+                    formats={["auto", "webp", "avif"]}
+                  />
                 </Col>
-                  
-                  
+
                 <Row>
                   <Col>
-                  <Button
-                    className={styles.heroButton}
-                    aria-label="Coming Soon"
-                  >
-                    COMING SOON
-                  </Button>
+                    <Button
+                      className={styles.heroButton}
+                      aria-label="Coming Soon"
+                    >
+                      COMING SOON
+                    </Button>
                   </Col>
                 </Row>
               </Row>
-         
             </Container>
           </div>
         </div>
