@@ -1,45 +1,51 @@
-// import React from "react";
-// import { graphql, useStaticQuery } from "gatsby";
-// import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import React from "react";
+import { graphql, useStaticQuery } from "gatsby";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
-// const DynamicImage = ({
-//   imageName,
-//   imageAlt,
-//   imageWidth,
-//   imageQuality,
-//   imageFormats,
-// }) => {
-//   const data = useStaticQuery(graphql`
-//     query {
-//       images: allFile(filter: { sourceInstanceName: { eq: "images" } }) {
-//         nodes {
-//           name
-//           childImageSharp {
-//             gatsbyImageData(
-//               width: 500
-//               quality: 75
-//               formats: [AUTO, WEBP, AVIF]
-//             )
-//           }
-//         }
-//       }
-//     }
-//   `);
 
-//   const imageNode = data.images.nodes.find((node) => node.name === imageName);
-//   const image = getImage(imageNode);
+const DynamicImage = ({
+  imageName,
+  imageAlt,
+ // imageWidth,
+  //imageQuality,
+ // imageFormats,
+}) => {
+  const data = useStaticQuery(graphql`
+    query {
+      images: allFile(filter: { sourceInstanceName: { eq: "images" } }) {
+        nodes {
+          name
+          childImageSharp {
+            gatsbyImageData(
+              formats: [AUTO, WEBP, AVIF]
+            )
+          }
+        }
+      }
+    }
+  `);
 
-//   return (
-//     <div>
-//       <GatsbyImage
-//         image={image}
-//         alt={imageAlt}
-//         width={imageWidth}
-//         quality={imageQuality}
-//         formats={imageFormats}
-//       />
-//     </div>
-//   );
-// };
+  const imageNode = (imageName) => {
+    return data.images.nodes.find((node) => node.name === imageName);
+      };
 
-// export default DynamicImage;
+  const imageData = imageNode(imageName);
+
+  const image = getImage(imageData);
+
+
+
+
+
+
+  return (
+    <div>
+      <GatsbyImage
+        image={image}
+        alt={imageAlt}
+      />
+    </div>
+  );
+};
+
+ export default DynamicImage;

@@ -5,6 +5,7 @@ import Hero from "../components/hero";
 import Features from "../components/features";
 import About from "../components/about"
 
+
 const IndexPage = () => {
   return (
     <Layout>
@@ -16,6 +17,7 @@ const IndexPage = () => {
         buttonText="COMING SOON"
       /> */}
       <Hero />
+      
       <Features />
       <About />
     </Layout>
