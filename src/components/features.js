@@ -7,6 +7,7 @@ import * as styles from "./hero.module.css";
 
 // core components
 // import VideoComponent from "./video-component";
+import Agil from "../assets/video/agil.mp4";
 
 function Features() {
   return (
@@ -156,7 +157,12 @@ function Features() {
                 </Col>
               </Row>
               <Row>
-                <Col>{/* <VideoComponent /> */}</Col>
+                <Col>
+                  {/* <VideoComponent /> */}
+                  <video controls>
+                    <source src={Agil} type="video/mp4" />
+                  </video>
+                </Col>
                 <Col></Col>
               </Row>
             </Container>
