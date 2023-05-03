@@ -31,8 +31,8 @@ const Hero = () => {
             timely manner.
           </p>
 
-          <Button className={styles.heroButton} aria-label="Order Now">
-            ORDER NOW
+          <Button className={styles.heroButton} aria-label="Coming Soon">
+            COMING SOON
           </Button>
         </Col>
       </Row>

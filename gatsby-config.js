@@ -15,6 +15,22 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-embed-video`,
+            options: {
+              width: 800,
+              height: 400,
+              related: false,
+              noIframeBorder: true,
+            },
+          },
+        ],
+      },
+    },
     `gatsby-plugin-sass`,
     `gatsby-plugin-image`,
     {

@@ -2,9 +2,11 @@ import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 
 // reactstrap components
-import { Container, Row, Col } from "reactstrap";
+import { Button, Container, Row, Col } from "reactstrap";
+import * as styles from "./hero.module.css";
 
 // core components
+// import VideoComponent from "./video-component";
 
 function Features() {
   return (
@@ -16,8 +18,8 @@ function Features() {
               <Col className="ml-auto mr-auto" md="12">
                 <h2 className="title">Fundamental Business Practices</h2>
                 <h4 className="description">
-                  Are you wanting to optimise your business and move it forward in
-                  an agile world?
+                  Are you wanting to optimise your business and move it forward
+                  in an agile world?
                 </h4>
               </Col>
             </Row>
@@ -67,66 +69,95 @@ function Features() {
             <Container>
               <Row>
                 <Col md="6">
-                  <h2 className="title">AGILITY MATTERS {<br />} by Michael Law</h2>
-                
+                  <h2 className="title">
+                    AGILITY MATTERS {<br />} by Michael Law
+                  </h2>
+                  {/*                 
                   <p>
                     Blurb of the book / Overview on how it helps and what it
                     covers.Buy it so you can be the best Etc etc Etc
-                  </p>
+                  </p> */}
                   <div className="info info-horizontal">
-                    <div className="icon icon-primary icon-circle">
-                      <i className="now-ui-icons location_world"></i>
+                    <div className="icon icon-primary">
+                      {/* <i className="now-ui-icons location_world"></i> */}
                     </div>
                     <div className="description">
-                      <h4 className="info-title">Point One</h4>
+                      <h4 className="info-title">For Contractors</h4>
                       <p>
-                        The moment you use Now UI Kit, you know you've never
-                        felt anything like it. With a single use lets you do
-                        more than ever before.
+                        This is what the book is about and what it will teach
+                        you. This is what the book is about and what it will
+                        teach you. This is what the book is about and what it
+                        will teach you. This is what the book is about and what
+                        it will teach you. This is what the book is about and
+                        what it will teach you. This is what the book is about
+                        and what it will teach you.
                       </p>
                     </div>
                   </div>
                   <div className="info info-horizontal">
-                    <div className="icon icon-primary icon-circle">
-                      <i className="now-ui-icons sport_user-run"></i>
+                    <div className="icon icon-primary">
+                      {/* <i className="now-ui-icons sport_user-run"></i> */}
                     </div>
                     <div className="description">
-                      <h4 className="info-title">Point Two</h4>
+                      <h4 className="info-title">For Employers</h4>
                       <p>
-                        Divide details about your product or agency work into
-                        parts. Write a few lines about each one. A paragraph
-                        describing a feature.
+                        This is what the book is about and what it will teach
+                        you. This is what the book is about and what it will
+                        teach you. This is what the book is about and what it
+                        will teach you. This is what the book is about and what
+                        it will teach you. This is what the book is about and
+                        what it will teach you. This is what the book is about
+                        and what it will teach you. This is what the book is
+                        about and what it will teach you.
                       </p>
                     </div>
                   </div>
                   <div className="info info-horizontal">
-                    <div className="icon icon-primary icon-circle">
-                      <i className="now-ui-icons ui-2_time-alarm"></i>
+                    <div className="icon icon-primary">
+                      {/* <i className="now-ui-icons ui-2_time-alarm"></i> */}
                     </div>
                     <div className="description">
-                      <h4 className="info-title">Point Three</h4>
+                      <h4 className="info-title">For Everyone Else</h4>
                       <p>
-                        Divide details about your product or agency work into
-                        parts. Write a few lines about each one. A paragraph
-                        describing a feature.
+                        This is what the book is about and what it will teach
+                        you. This is what the book is about and what it will
+                        teach you. This is what the book is about and what it
+                        will teach you. This is what the book is about and what
+                        it will teach you. This is what the book is about and
+                        what it will teach you. This is what the book is about
+                        and what it will teach you. This is what the book is
+                        about and what it will teach you.
                       </p>
                     </div>
                   </div>
                 </Col>
                 <Col md="6">
-                  <div className="tablet-container">
+                  <div className="tablet-container d-flex align-items-center">
                     <StaticImage
-                      //   className={styles.heroImage}
-                      src="../images/agility-matters-cover-highres.png"
+                      // className={styles.heroImage}
+                      src="../images/1682629796.png"
                       alt="Agility Matters Book Cover"
                       loading="eager"
-                      width={1500}
-                      quality={95}
+                      objectFit="contain"
+                      // width={1500}
+                      quality={100}
+                      placeholder="blurred"
                       formats={["auto", "webp", "avif"]}
-                      //   style={{ marginBottom: `var(--space-3)` }}
+                      style={{ margin: "0 auto" }}
                     />
                   </div>
+
+                  <Button
+                    className={styles.heroButton}
+                    aria-label="Coming Soon"
+                  >
+                    COMING SOON
+                  </Button>
                 </Col>
+              </Row>
+              <Row>
+                <Col>{/* <VideoComponent /> */}</Col>
+                <Col></Col>
               </Row>
             </Container>
           </div>
