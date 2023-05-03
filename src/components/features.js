@@ -159,9 +159,11 @@ function Features() {
               <Row>
                 <Col md={6}>
                   {/* <VideoComponent /> */}
-                  <video controls>
-                    <source src={Agil} type="video/mp4" />
-                  </video>
+                  <div className="video">
+                    <video controls>
+                      <source src={Agil} type="video/mp4" />
+                    </video>
+                  </div>
                   <h3>Agility Matters YouTube</h3>
                   <Button
                     className={styles.heroButton}
@@ -170,6 +172,7 @@ function Features() {
                     Watch More
                   </Button>
                 </Col>
+
                 <Col md={6}>
                   <h2>Praise for Agility Matters</h2>
                   <p>
