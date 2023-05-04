@@ -14,6 +14,7 @@ module.exports = {
     image: `/1682629618.png`,
     siteUrl: `https://agilitymatters.nz`,
     author: `Michael Law`,
+    icon: `src/images/agility-matters-icon3.png`,
   },
   plugins: [
     `gatsby-plugin-sass`,
@@ -38,7 +39,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/agility-matters-icon2.png`, // This path is relative to the root of the site.
+        icon: `src/images/agility-matters-icon3.png`, // This path is relative to the root of the site.
       },
     },
     {
