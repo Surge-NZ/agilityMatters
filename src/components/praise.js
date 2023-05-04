@@ -23,7 +23,7 @@ function Praise() {
   style={{ 
     textAlign: "center"
   }}>Praise for Agility Matters</h2>
-<Col md={6} className="d-flex align-items-center" > 
+<Col lg={6} className="d-flex align-items-center" > 
 
 
     <video controls className={styles.video}>
@@ -35,7 +35,7 @@ function Praise() {
  
 </Col>
 
-<Col md={6}>
+<Col lg={6}>
 
   <div className="typography-line">
                   
