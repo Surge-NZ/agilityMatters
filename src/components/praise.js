@@ -14,7 +14,8 @@ import Agil from "../assets/video/agil.mp4";
 function Praise() {
   return (
    
-
+<div className="section">
+<div className="about-description text-center">
 <div className={styles.videoAndTestimonials}>
 <Container>
 <Row>
@@ -22,7 +23,7 @@ function Praise() {
   style={{ 
     textAlign: "center"
   }}>Praise for Agility Matters</h2>
-<Col md={6} >
+<Col md={6} className="d-flex align-items-center" > 
 
 
     <video controls className={styles.video}>
@@ -30,17 +31,7 @@ function Praise() {
     </video>
 
   
-    <Row className="tablet-container d-flex align-items-center">
-      <Col>
-  <Button
-    className={styles.heroButton}
-    aria-label="Coming Soon"
-    href="https://www.youtube.com/playlist?list=PL7Tt7ju84Q_zWRG05UzGLzr_wQAcI9T-0"
-  >
-    Watch More
-  </Button>
-  </Col>
-  </Row>
+    
  
 </Col>
 
@@ -81,7 +72,20 @@ function Praise() {
 
 </Col>
 </Row>
+<Row className="tablet-container d-flex align-items-center">
+      <Col>
+  <Button
+    className={styles.heroButton}
+    aria-label="Coming Soon"
+    href="https://www.youtube.com/playlist?list=PL7Tt7ju84Q_zWRG05UzGLzr_wQAcI9T-0"
+  >
+    WATCH MORE
+  </Button>
+  </Col>
+  </Row>
 </Container>
+</div>
+</div>
 </div>
 );
 }
