@@ -7,6 +7,7 @@ import * as styles from "./hero.module.css";
 const Hero = () => {
   return (
     <div className={styles.hero}>
+   
       <Row>
         <Col md={6} className={styles.heroLeftColumn}>
           <StaticImage
@@ -35,7 +36,8 @@ const Hero = () => {
           </Button>
         </Col>
       </Row>
-    </div>
+      </div>
+  
   );
 };
 

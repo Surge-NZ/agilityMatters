@@ -13,7 +13,9 @@
 
   align-items: center;
 
-  height: 75vh;
+  min-height: 75vh
+
+
 }
 
 .heroImage {
@@ -28,7 +30,7 @@
 
     align-items: flex-start;
 
-    height: 80vh;
+    min-height: 75vh
   }
 
   .heroRightColumn > h1 {
