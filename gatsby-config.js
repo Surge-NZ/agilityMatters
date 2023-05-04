@@ -14,7 +14,7 @@ module.exports = {
     image: `/1682629618.png`,
     siteUrl: `https://agilitymatters.nz`,
     author: `Michael Law`,
-    icon: `src/images/agility-matters-icon3.png`,
+    icon: `images/favicon2.ico`,
   },
   plugins: [
     `gatsby-plugin-sass`,
@@ -32,14 +32,14 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
-        short_name: `starter`,
+        short_name: `Agility Matters`,
         start_url: `/`,
         background_color: `#663399`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/agility-matters-icon3.png`, // This path is relative to the root of the site.
+        icon: "src/images/agility-matters-icon3.png", // This path is relative to the root of the site.
       },
     },
     {

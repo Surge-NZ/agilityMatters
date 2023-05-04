@@ -1,10 +1,10 @@
 import React from "react";
-import { StaticImage } from "gatsby-plugin-image";
+
 
 // reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
 import * as styles from "./hero.module.css";
-import * as styles2 from "./features.module.css";
+
 // core components
 // import VideoComponent from "./video-component";
 import Agil from "../assets/video/agil.mp4";
@@ -22,7 +22,7 @@ function Praise() {
   {/* <VideoComponent /> */}
   <div className="video">
     <video controls width="400" height="200">
-      <source src={Agil} type="video/mp4" />
+      <source src={Agil} type="video/mp4" loading="lazy" />
     </video>
   </div>
   <h3>Agility Matters YouTube</h3>
