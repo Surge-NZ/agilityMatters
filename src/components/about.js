@@ -23,6 +23,7 @@ const About = () => {
                     style={{ marginLeft: "2em" }}
                     className={styles.heroButton}
                     aria-label="Coming Soon"
+                    href="https://www.amazon.com/"
                   >
                     COMING SOON
                   </Button>
@@ -45,16 +46,7 @@ business transformation, with over 15 years of experience, Michael has carved a 
 leader, guiding organisations to unlock their full 
 potential, with a focus on customer value.
 </p>
-<p>Michael Law, a renowned expert in the field of 
-business transformation, with over 15 years of experience, Michael has carved a niche for himself as a seasoned transformation 
-leader, guiding organisations to unlock their full 
-potential, with a focus on customer value.
-</p>
-<p>Michael Law, a renowned expert in the field of 
-business transformation, with over 15 years of experience, Michael has carved a niche for himself as a seasoned transformation 
-leader, guiding organisations to unlock their full 
-potential, with a focus on customer value.
-</p>
+
 <h3>
 “This book gets you excited about the opportunities for improvement within your own company. If NZFS can do it. Surely we can too.”
 </h3>
@@ -71,6 +63,7 @@ potential, with a focus on customer value.
                 
                     className={styles.heroButton}
                     aria-label="Coming Soon"
+                    href="https://www.amazon.com/"
                   >
                     COMING SOON
                   </Button>

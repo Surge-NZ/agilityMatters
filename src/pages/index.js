@@ -29,5 +29,5 @@ const IndexPage = () => {
 export default IndexPage;
 
 export const Head = () => (
-  <SEO title="" description="" />
+  <SEO title="Agility Matters" description="" />
 )

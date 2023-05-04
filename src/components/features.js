@@ -159,6 +159,7 @@ function Features() {
                   <Button
                     className={styles.heroButton}
                     aria-label="Coming Soon"
+                    href="https://www.amazon.com/"
                   >
                     COMING SOON
                   </Button>

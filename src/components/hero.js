@@ -30,7 +30,7 @@ const Hero = () => {
             flexibly.
           </p>
 
-          <Button className={styles.heroButton} aria-label="Coming Soon">
+          <Button className={styles.heroButton} aria-label="Coming Soon" href="https://www.amazon.com/">
             COMING SOON
           </Button>
         </Col>

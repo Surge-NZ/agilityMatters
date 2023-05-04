@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "gatsby"
 
 // reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
@@ -19,35 +19,59 @@ function Praise() {
 <Container>
 <Row>
 <Col md={6}>
-  {/* <VideoComponent /> */}
-  <div className="video">
-    <video controls width="400" height="200">
+
+
+    <video controls className={styles.video}>
       <source src={Agil} type="video/mp4" loading="lazy" />
     </video>
-  </div>
+
   <h3>Agility Matters YouTube</h3>
+  
   <Button
     className={styles.heroButton}
     aria-label="Coming Soon"
+    href="https://www.youtube.com/playlist?list=PL7Tt7ju84Q_zWRG05UzGLzr_wQAcI9T-0"
   >
     Watch More
   </Button>
+
 </Col>
 
 <Col md={6}>
   <h2>Praise for Agility Matters</h2>
-  <p>
-    “this is a book that has a beginning and an end. my
-    favourite type of book. the middle was also present and it
-    was okay ”
-  </p>
-  <p>• Charles Fake</p>
-  <p>
-    “this book was okay but there were no dinosaurs in it and
-    that was kinda disappointing, i wish there was more wheres
-    wally so i could locate him”
-  </p>
-  <p>• Charles Fake</p>
+  <div className="typography-line">
+                  
+                  <blockquote>
+                    <p className="blockquote blockquote" 
+                    >
+                      "I will be the leader of a company that ends up being
+                      worth billions of dollars, because I got the answers. I
+                      understand culture. I am the nucleus. I think that’s a
+                      responsibility that I have, to push possibilities, to show
+                      people, this is the level that things could be at."{" "}
+                      <br></br>
+                      <br></br>
+                      <small>- Name is a name</small>
+                    </p>
+                  </blockquote>
+
+                  <blockquote>
+                    <p className="blockquote blockquote" 
+                    >
+                      "I will be the leader of a company that ends up being
+                      worth billions of dollars, because I got the answers. I
+                      understand culture. I am the nucleus. I think that’s a
+                      responsibility that I have, to push possibilities, to show
+                      people, this is the level that things could be at."{" "}
+                      <br></br>
+                      <br></br>
+                      <small>- Name is a name</small>
+                    </p>
+                  </blockquote>
+               
+  </div>
+
+
 </Col>
 </Row>
 </Container>

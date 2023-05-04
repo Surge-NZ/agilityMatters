@@ -110,3 +110,8 @@
   background-color: rgba(217, 217, 217, 0.38);
   padding: 3vw;
 }
+
+.video {
+
+  max-width: 100%;
+}
