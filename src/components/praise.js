@@ -18,15 +18,20 @@ function Praise() {
 <div className={styles.videoAndTestimonials}>
 <Container>
 <Row>
-<Col md={6}>
+<h2 className="title" 
+  style={{ 
+    textAlign: "center"
+  }}>Praise for Agility Matters</h2>
+<Col md={6} >
 
 
     <video controls className={styles.video}>
       <source src={Agil} type="video/mp4" loading="lazy" />
     </video>
 
-  <h3>Agility Matters YouTube</h3>
   
+    <Row className="tablet-container d-flex align-items-center">
+      <Col>
   <Button
     className={styles.heroButton}
     aria-label="Coming Soon"
@@ -34,11 +39,13 @@ function Praise() {
   >
     Watch More
   </Button>
-
+  </Col>
+  </Row>
+ 
 </Col>
 
 <Col md={6}>
-  <h2>Praise for Agility Matters</h2>
+
   <div className="typography-line">
                   
                   <blockquote>
