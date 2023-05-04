@@ -74,7 +74,7 @@ function Features() {
           <div className="features-5">
             <Container>
               <Row>
-                <Col md="6">
+                <Col lg="6">
                   <h2 className="title">
                     AGILITY MATTERS {<br />} by Michael Law
                   </h2>
@@ -137,7 +137,7 @@ function Features() {
                     </div>
                   </div>
                 </Col>
-                <Col md="6" className="tablet-container d-flex align-items-center" >
+                <Col lg="6" className="tablet-container d-flex align-items-center" >
                   
                     <StaticImage
                       // className={styles.heroImage}
