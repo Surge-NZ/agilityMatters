@@ -90,15 +90,9 @@ Will Julie’s pursuit of change usher in a new era for NZFS?
                       {/* <i className="now-ui-icons location_world"></i> */}
                     </div>
                     <div className="description">
-                      <h4 className="info-title">For Contractors</h4>
+                      <h4 className="info-title">Business Agility Radar</h4>
                       <p>
-                        This is what the book is about and what it will teach
-                        you. This is what the book is about and what it will
-                        teach you. This is what the book is about and what it
-                        will teach you. This is what the book is about and what
-                        it will teach you. This is what the book is about and
-                        what it will teach you. This is what the book is about
-                        and what it will teach you.
+                      Adapting an organisation to respond to customer needs in a flexible way drives better business outcomes. Agility allows organisations to prospere by focusing on Customer Value. The Business Agility Radar allows your organisation to measure the culture across the four values: Adaptive Strategy, Cognitive Diversity, Customer-Centricity and Leadership and Employee Empowerment. 
                       </p>
                     </div>
                   </div>
@@ -107,16 +101,9 @@ Will Julie’s pursuit of change usher in a new era for NZFS?
                       {/* <i className="now-ui-icons sport_user-run"></i> */}
                     </div>
                     <div className="description">
-                      <h4 className="info-title">For Employers</h4>
+                      <h4 className="info-title">Amber to Orange Delivery Model</h4>
                       <p>
-                        This is what the book is about and what it will teach
-                        you. This is what the book is about and what it will
-                        teach you. This is what the book is about and what it
-                        will teach you. This is what the book is about and what
-                        it will teach you. This is what the book is about and
-                        what it will teach you. This is what the book is about
-                        and what it will teach you. This is what the book is
-                        about and what it will teach you.
+                      Our research has shown that organisations that are Amber seem to be the most common, those organisations focus on efficientcy and their products, we have developed a framework that enables those organisations to move to the next stage, which is an outcome focussed delivery model. 
                       </p>
                     </div>
                   </div>
@@ -125,16 +112,9 @@ Will Julie’s pursuit of change usher in a new era for NZFS?
                       {/* <i className="now-ui-icons ui-2_time-alarm"></i> */}
                     </div>
                     <div className="description">
-                      <h4 className="info-title">For Everyone Else</h4>
+                      <h4 className="info-title">7 Circumstances of Strategy</h4>
                       <p>
-                        This is what the book is about and what it will teach
-                        you. This is what the book is about and what it will
-                        teach you. This is what the book is about and what it
-                        will teach you. This is what the book is about and what
-                        it will teach you. This is what the book is about and
-                        what it will teach you. This is what the book is about
-                        and what it will teach you. This is what the book is
-                        about and what it will teach you.
+                      Seven simple questions to ask. WHY do you exsist, WHO do you serve, WHAT pain pont do you solve, HOW do you solve it, IN WHAT WAY will you deliver and WHEN. When one questions changes, the whole strategy changes below.
                       </p>
                     </div>
                   </div>

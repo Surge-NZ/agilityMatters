@@ -19,7 +19,7 @@ const About = () => {
             }}>
               
               <Col className="ml-auto" md="12">
-              <h2 className="content-center">Meet the Author</h2>
+              <h2 className="content-center title">Meet the Author</h2>
             
                   
          
@@ -35,7 +35,7 @@ const About = () => {
               
               </Col>
               <Col className="ml-auto mr-auto" md="8">
-                <h2></h2>
+            
                 <p>Michael Law, a renowned expert in the field of 
 business transformation, with over 15 years of experience, Michael has carved a niche for himself as a seasoned transformation 
 leader, guiding organisations to unlock their full 
