@@ -42,28 +42,20 @@ function Praise() {
                   <blockquote>
                     <p className="blockquote blockquote" 
                     >
-                      "I will be the leader of a company that ends up being
-                      worth billions of dollars, because I got the answers. I
-                      understand culture. I am the nucleus. I think that’s a
-                      responsibility that I have, to push possibilities, to show
-                      people, this is the level that things could be at."{" "}
+                      "This is an easy to read book. It has lots of practical techniques you can use with explanations of how it was used in the story to achieve an outcome.  This book gets you excited about the opportunities for improvement within your own company. If NZFS can do it. Surely we can too.   It also includes the academic details to back up the practices and appeal to those that need more detail."{" "}
                       <br></br>
                       <br></br>
-                      <small>- Name is a name</small>
+                      <small>- Nicole Arthur</small>
                     </p>
                   </blockquote>
 
                   <blockquote>
                     <p className="blockquote blockquote" 
                     >
-                      "I will be the leader of a company that ends up being
-                      worth billions of dollars, because I got the answers. I
-                      understand culture. I am the nucleus. I think that’s a
-                      responsibility that I have, to push possibilities, to show
-                      people, this is the level that things could be at."{" "}
+                      "This book is a valuable resource for anyone interested in implementing customer-focussed agility practices and other organisational theories in the workplace. Written from the perspective of Julie, the new Technology Manager at the fictional NZFS, it provides practical descriptions and scenarios which will undoubtably be familiar to anyone who has worked in a large company. Highly recommended for anyone looking to improve their customer engagement and streamline their work processes."{" "}
                       <br></br>
                       <br></br>
-                      <small>- Name is a name</small>
+                      <small>- Rachel Astruc</small>
                     </p>
                   </blockquote>
                
