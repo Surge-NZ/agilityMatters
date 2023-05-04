@@ -7,7 +7,6 @@ export const SEO = ({ title, description, pathname, children }) => {
     description: defaultDescription,
     image,
     siteUrl,
-    twitterUsername,
   } = useSiteMetadata();
 
   const seo = {
@@ -15,7 +14,7 @@ export const SEO = ({ title, description, pathname, children }) => {
     description: description || defaultDescription,
     image: `${siteUrl}${image}`,
     url: `${siteUrl}${pathname || ``}`,
-    author: `Michael Law`,
+    // author: `Michael Law`,
   };
 
   return (
@@ -23,12 +22,6 @@ export const SEO = ({ title, description, pathname, children }) => {
       <title>{seo.title}</title>
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content={seo.title} />
-      <meta name="twitter:url" content={seo.url} />
-      <meta name="twitter:description" content={seo.description} />
-      <meta name="twitter:image" content={seo.image} />
-      <meta name="twitter:creator" content={seo.twitterUsername} />
       <link
         rel="icon"
         href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>👤</text></svg>"
@@ -37,3 +30,6 @@ export const SEO = ({ title, description, pathname, children }) => {
     </>
   );
 };
+
+// All props are optional since each value has a default value or fallback. The pathname prop will be the relative path of the page so you need to construct an absolute URL with siteUrl.
+// You can extend the seo object with other keys, but it’s recommended to follow the pattern of prop || fallback so that no value is undefined.

@@ -3,9 +3,9 @@ import Layout from "../components/layout";
 import Hero from "../components/hero";
 // import Hero2 from "../components/hero2";
 import Features from "../components/features";
-import About from "../components/about"
-import Praise from "../components/praise"
-
+import About from "../components/about";
+import Praise from "../components/praise";
+import { SEO } from "../components/seo";
 
 const IndexPage = () => {
   return (
@@ -18,7 +18,6 @@ const IndexPage = () => {
         buttonText="COMING SOON"
       /> */}
       <Hero />
-      
       <Features />
       <Praise />
       <About />
@@ -27,3 +26,5 @@ const IndexPage = () => {
 };
 
 export default IndexPage;
+
+export const Head = () => <SEO />;
