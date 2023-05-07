@@ -8,7 +8,7 @@ import * as styles from "./hero.module.css";
 
 const About = () => {
   return (
-    <Container>
+    <Container style={{ marginBottom: "10vh" }}>
       <Row style={{ textAlign: "center" }}>
         <Col className="ml-auto" md="12">
           <h2 className="content-center title">Meet the Author</h2>
