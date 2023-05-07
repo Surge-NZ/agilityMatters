@@ -13,9 +13,7 @@
 
   align-items: center;
 
-  min-height: 75vh
-
-
+  min-height: 75vh;
 }
 
 .heroImage {
@@ -30,17 +28,22 @@
 
     align-items: flex-start;
 
-    min-height: 75vh
+    min-height: 75vh;
   }
 
   .heroRightColumn > h1 {
-    font-size: 5vw !important;
+    font-size: 7vw !important;
 
     margin-bottom: 20px;
   }
 
   .heroImage {
     margin-left: 5vw;
+  }
+  .heroRightColumn > p {
+    font-size: 5vw !important;
+
+    /* margin-bottom: 20px; */
   }
 }
 
@@ -114,6 +117,5 @@
 }
 
 .video {
-
   max-width: 100%;
 }
