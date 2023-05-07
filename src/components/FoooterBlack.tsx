@@ -18,7 +18,7 @@ function FooterBlack() {
           <nav>
             <ul>
               <Row
-                style={{ textAlign: "center", justifyContent = "center" }}
+                style={{ textAlign: "center", justifyContent: "center" }}
                 md={12}
               >
                 <Col lg={6} md={6}>
