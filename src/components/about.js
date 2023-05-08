@@ -1,10 +1,6 @@
 import React from "react";
-import { Button, Container, Row, Col } from "reactstrap";
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
-import { useStaticQuery, graphql } from "gatsby";
+import { Container, Row, Col } from "reactstrap";
 import DynamicImage from "../components/not-working-yet/dynamic-image-graphql";
-import ParagraphText from "./paragraph-text";
-import * as styles from "./hero.module.css";
 
 const About = () => {
   return (
