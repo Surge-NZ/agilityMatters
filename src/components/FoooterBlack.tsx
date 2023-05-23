@@ -21,7 +21,7 @@ function FooterBlack() {
                 <Link to={"/"}>Home</Link>
               </li>
               <li>
-                <Link to={"/"}>Purchase</Link>
+                <Link to={"https://www.amazon.com.au/Agility-Matters-Adapting-Organisation-Flexibility-ebook/dp/B0C5FG4FN1/ref=sr_1_1?crid=10QMLX1XEGHB1&keywords=agility+matters&qid=1684815247&sprefix=agility+matter%2Caps%2C326&sr=8-1"}>Purchase</Link>
               </li>
 
             </ul>
