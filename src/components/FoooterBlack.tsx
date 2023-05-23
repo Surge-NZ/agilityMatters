@@ -14,43 +14,21 @@ function FooterBlack() {
   return (
     <>
       <footer className="footer" data-background-color="black">
-        <Container
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            minHeight: "10vh",
-            justifyContent: "center", // center vertically
-            alignItems: "center",
-            bottom: 0,
-            width: "100%",
-          }}
-        >
-          <Row md={12} style={{ width: "100%" }}>
-            <Col
-              style={{
-                display: "flex",
-                justifyContent: "flex-start",
-                alignItems: "center",
-              }}
-              lg={{ size: 6, order: 1 }} // push to the left
-              md={{ size: 6, order: 1 }}
-            >
-              <h6>Agility Matters</h6>
-            </Col>
-            <Col
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "flex-end",
-              }}
-              lg={{ size: 6, order: 2 }} // push to the right
-              md={{ size: 6, order: 2 }}
-            >
-              <div className={`copyright ${classes.copyright}`} id="copyright">
-                © {new Date().getFullYear()}{" "}
-              </div>
-            </Col>
-          </Row>
+      <Container>
+        <nav>
+            <ul>
+              <li>
+                <Link to={"/"}>Home</Link>
+              </li>
+              <li>
+                <Link to={"/"}>Purchase</Link>
+              </li>
+
+            </ul>
+          </nav>
+          <div className={`copyright ${classes.copyright}`} id="copyright">
+            © {new Date().getFullYear()} Agility Matters 
+          </div>
         </Container>
       </footer>
     </>
