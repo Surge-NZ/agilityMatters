@@ -30,10 +30,17 @@ const Hero = () => {
             A Novel about adapting an organisation to respond to customer needs,
             flexibly.
           </p>
+          <div className="d-flex justify-content-center mt-3">
 
           <Button className={styles.heroButton} aria-label="purchase" href="https://www.amazon.com.au/Agility-Matters-Adapting-Organisation-Flexibility-ebook/dp/B0C5FG4FN1/ref=sr_1_1?crid=10QMLX1XEGHB1&keywords=agility+matters&qid=1684815247&sprefix=agility+matter%2Caps%2C326&sr=8-1">
             GET A COPY HERE
           </Button>
+          {/* note, inconsistency in styles: first button is in all caps, second button is camel case. Advising a higher font weight and better color contrast for better readibility -J */}
+          <Button className={styles.heroButton} aria-label="messure-current-state" href="https://agility.scoreapp.com/" 
+          style={{ backgroundColor: "#696969", color: 'yellow' }}>
+            Measure Current State
+          </Button>
+          </div>
         </Col>
       </Row>
       </div>
