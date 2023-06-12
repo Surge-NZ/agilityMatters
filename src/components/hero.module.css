@@ -107,10 +107,38 @@
   margin-bottom: 20px;
 }
 
-.heroButton {
-  background-color: #ffe33a;
+.heroButton { 
+  
   font-size: 1em;
   color: black;
+  font-weight: 400;
+  border-radius: 1vw;
+  margin-right: 1rem;
+}
+
+.heroButton:hover { 
+  background-color: grey;
+  font-size: 1em;
+  color: white;
+  font-weight: 400;
+  border-radius: 1vw;
+  margin-right: 1rem;
+}
+
+
+.heroButton2 { 
+  
+  font-size: 1em;
+  color: black;
+  font-weight: 400;
+  border-radius: 1vw;
+  margin-right: 1rem;
+}
+
+.heroButton2:hover { 
+  background-color: grey;
+  font-size: 1em;
+  color: white;
   font-weight: 400;
   border-radius: 1vw;
   margin-right: 1rem;
