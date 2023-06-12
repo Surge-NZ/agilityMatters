@@ -5,7 +5,7 @@ import Hero from "../components/hero";
 import Features from "../components/features";
 import About from "../components/about";
 import Praise from "../components/praise";
-import Seo from "../components/seo";
+// import Seo from "../components/seo";
 import FooterBlack from "../components/FoooterBlack";
 
 const IndexPage = () => {
@@ -20,6 +20,5 @@ const IndexPage = () => {
   );
 };
 
-// export const Head = () => <Seo title="Home" />;
-
 export default IndexPage;
+// export const Head = () => <Seo title="Home" />;
