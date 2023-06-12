@@ -1,8 +1,8 @@
 import React, { memo, useEffect, useState } from "react";
 import { graphql, Link } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
-import Layout from "../components/layout/";
-import Seo from "../components/Seo";
+import Layout from "../components/layout";
+import Seo from "../components/seo";
 import Category from "../components/Category";
 
 const IndexPage = memo((props) => {
