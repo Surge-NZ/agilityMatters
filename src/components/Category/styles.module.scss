@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 15px;
+  @media only screen and (max-width: 639px) {
+    justify-content: right;
+  }
+}
+
+.heading {
+  @media only screen and (max-width: 639px) {
+    text-align: right;
+  }
+}
+
+.button {
+  background-color: #aaaaaa;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 3px 13px;
+  transition: all 0.3s;
+  &:hover {
+    text-decoration: none;
+    background-color: #f96332;
+    color: #ffffff;
+    transition: all 0.3s;
+  }
+  &:active,
+  &:focus {
+    color: #ffffff;
+  }
+}
+
+.active {
+  background-color: #f96332;
+  color: #ffffff;
+}

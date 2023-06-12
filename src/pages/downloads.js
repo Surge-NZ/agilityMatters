@@ -1,9 +1,10 @@
 import React from "react";
+import Layout from "../components/layout";
 import ColTextBlockButton from "../components/mini-components/col-text-block-button";
 
 const Downloads = () => {
   return (
-    <>
+    <Layout>
       <ColTextBlockButton
         title="Downloads"
         paragraph="Here you can find resouces mentioned in the book."
@@ -15,7 +16,7 @@ const Downloads = () => {
           { text: "Download Item 5", link: "/downloads" },
         ]}
       />
-    </>
+    </Layout>
   );
 };
 

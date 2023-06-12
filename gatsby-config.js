@@ -17,6 +17,12 @@ module.exports = {
     icon: `images/favicon2.ico`,
   },
   plugins: [
+    {
+      resolve: `gatsby-source-wordpress`,
+      options: {
+        url: `https://necta.surgetechnology.co.nz/graphql`,
+      },
+    },
     `gatsby-plugin-sass`,
     `gatsby-plugin-image`,
     {
@@ -75,6 +81,6 @@ module.exports = {
           exclude: ["/preview/**", "/do-not-track/me/too/"],
         },
       },
-    }
+    },
   ],
 };
