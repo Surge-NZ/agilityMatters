@@ -1,0 +1,70 @@
+.templateLogo {
+  margin-right: 1rem;
+  height: 43px;
+  width: 50px;
+}
+
+.other {
+  @media only screen and (min-width: 992px) {
+    display: none;
+  }
+}
+
+.navbarCollapseEmployer {
+  @media only screen and (max-width: 991px) {
+    &::before {
+      background: linear-gradient(#f96332 0%, #000 80%) !important;
+    }
+  }
+}
+
+.navbarCollapseContractor {
+  @media only screen and (max-width: 991px) {
+    &::before {
+      background: linear-gradient(#f2e822 0%, #000 80%) !important;
+    }
+  }
+}
+
+.navbar {
+  align-items: flex-end;
+  @media only screen and (max-width: 991px) {
+    align-items: unset;
+  }
+}
+
+.dropdownMenu::-webkit-scrollbar {
+  display: none;
+}
+
+.dropdownMenu {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.navbarContentLeft {
+  display: flex;
+  align-items: center;
+}
+
+.logoWord {
+  font-size: 1.2em;
+  font-family: "Hippopotamus Apocalypse";
+}
+
+.navbarDivider {
+  margin-bottom: 0.2rem;
+  font-size: 1.1rem;
+}
+
+.btnLogin {
+  font-size: 1.2em;
+  text-transform: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.black {
+  color: #888888;
+}
