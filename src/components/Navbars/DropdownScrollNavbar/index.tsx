@@ -8,8 +8,7 @@ import {
   Navbar,
   NavItem,
   Nav,
-  Container,
-} from "reactstrap";
+  } from "reactstrap";
 import { isBrowser } from "../../../utils";
 import * as classes from "./styles.module.scss";
 import clsx from "clsx";
@@ -55,7 +54,7 @@ const DropdownScrollNavbar = memo(({}: Props) => {
     <>
       {collapseOpen && <div id="bodyClick" onClick={handleCollapseNavbar} />}
       <Navbar className={"fixed-top" + navbarColor} color="white" expand="lg">
-        <Container>
+        
           <div className="navbar-translate">
             <div className={clsx(classes.navbarContentLeft)}>
               <NavbarBrand to="/" tag={Link} id="navbar-brand" className="mr-0">
@@ -70,8 +69,9 @@ const DropdownScrollNavbar = memo(({}: Props) => {
                 tag={Link}
                 id="navbar-brand-logo"
                 className="mr-0"
+                style={{ paddingLeft: '1rem' }}  // Added padding here
               >
-                <span className={classes.logoWord}>!#@!@$!@#!@#@!</span>
+                <span className={classes.logoWord}>AGILITY MATTERS</span>
               </NavbarBrand>
               <span
                 className={clsx(classes.navbarDivider, "mx-3", {
@@ -79,13 +79,13 @@ const DropdownScrollNavbar = memo(({}: Props) => {
                 })}
                 id="navbar-divider"
               >
-                |
+                {/* | */}
               </span>
               <NavbarBrand
                 id="navbar-brand-login"
                 href={"https://app.necta.nz"}
               >
-                <span className={classes.btnLogin}>Login</span>
+                <span className={classes.btnLogin}></span>
               </NavbarBrand>
             </div>
             <button
@@ -98,8 +98,15 @@ const DropdownScrollNavbar = memo(({}: Props) => {
               <span className="navbar-toggler-bar bottom-bar"></span>
             </button>
           </div>
-          <Collapse isOpen={collapseOpen} navbar>
-            <Nav className={clsx("ml-auto", classes.navbar)} id="ceva" navbar>
+          {/* <Collapse 
+              isOpen={collapseOpen} 
+              navbar 
+              style={{
+                display: "flex", 
+                justifyContent: "center"
+              }}
+            >
+            <Nav  id="ceva" navbar >
               <UncontrolledDropdown nav>
                 <DropdownToggle
                   color="default"
@@ -134,8 +141,8 @@ const DropdownScrollNavbar = memo(({}: Props) => {
                 </DropdownToggle>
               </UncontrolledDropdown>
             </Nav>
-          </Collapse>
-        </Container>
+          </Collapse> */}
+        
       </Navbar>
     </>
   );

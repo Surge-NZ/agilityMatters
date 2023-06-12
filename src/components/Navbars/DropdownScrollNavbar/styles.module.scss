@@ -33,6 +33,11 @@
   }
 }
 
+.navbar-collapse.centerNavItems {
+  display: flex!important;
+  justify-content: center!important;
+}
+
 .dropdownMenu::-webkit-scrollbar {
   display: none;
 }
@@ -45,11 +50,13 @@
 .navbarContentLeft {
   display: flex;
   align-items: center;
+  flex-direction: row;
 }
 
 .logoWord {
-  font-size: 1.2em;
-  font-family: "Hippopotamus Apocalypse";
+  font-size: 1.6em;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
 }
 
 .navbarDivider {

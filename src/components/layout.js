@@ -5,6 +5,7 @@ import DropdownScrollNavbar from "../components/Navbars/DropdownScrollNavbar";
 // import Navbar from "./navbar";
 // import Nav from "./nav";
 
+
 const Layout = ({ children }) => {
   return (
     <React.Fragment>
