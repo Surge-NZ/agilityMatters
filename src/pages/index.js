@@ -11,13 +11,6 @@ import FooterBlack from "../components/FoooterBlack";
 const IndexPage = () => {
   return (
     <Layout>
-      {/* <Hero2
-        headerText="AGILITY MATTERS"
-        paragraphText="HERO2 software business, it is crucial to be agile in order to stay
-            competitive and deliver new features and updates to customers in a
-            timely manner."
-        buttonText="COMING SOON"
-      /> */}
       <Hero />
       <Features />
       <Praise />
@@ -27,6 +20,6 @@ const IndexPage = () => {
   );
 };
 
-export default IndexPage;
+// export const Head = () => <Seo title="Home" />;
 
-export const Head = () => <Seo title="Agility Matters" description="" />;
+export default IndexPage;
