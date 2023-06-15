@@ -32,3 +32,17 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+/* Necta posts */
+// query AllPostQuery {
+//   allWpPost {
+//     nodes {
+//       databaseId
+//       title
+//       uri
+//       slug
+//       excerpt
+//       date
+//     }
+//   }
+// }
