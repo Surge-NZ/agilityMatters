@@ -1,0 +1,6 @@
+"sharp": "^0.32.1",
+"styled-components": "^5.3.10",
+"intersection-observer": "^0.12.2",
+"gatsby-plugin-react-helmet": "^6.9.0",
+"react-helmet": "^6.1.0",
+"clsx": "^1.2.1",

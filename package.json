@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "agility-matters",
   "private": true,
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
@@ -15,13 +15,11 @@
   },
   "dependencies": {
     "bootstrap": "^5.2.3",
-    "clsx": "^1.2.1",
     "gatsby": "^5.9.0",
     "gatsby-omni-font-loader": "^2.0.2",
     "gatsby-plugin-google-gtag": "^5.10.0",
     "gatsby-plugin-image": "^3.9.0",
     "gatsby-plugin-manifest": "^5.9.0",
-    "gatsby-plugin-react-helmet": "^6.9.0",
     "gatsby-plugin-sass": "^6.9.0",
     "gatsby-plugin-sharp": "^5.9.0",
     "gatsby-remark-embed-video": "^3.2.1",
@@ -29,14 +27,10 @@
     "gatsby-source-wordpress": "^7.10.1",
     "gatsby-transformer-remark": "^6.9.0",
     "gatsby-transformer-sharp": "^5.9.0",
-    "intersection-observer": "^0.12.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-helmet": "^6.1.0",
     "reactstrap": "^9.1.9",
-    "sass": "^1.62.0",
-    "sharp": "^0.32.1",
-    "styled-components": "^5.3.10"
+    "sass": "^1.62.0"
   },
   "repository": {
     "type": "git",
