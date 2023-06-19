@@ -1,7 +1,7 @@
 {
   "name": "agility-matters",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "A Novel about adapting an organisation to respond to customer needs, flexibly.",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
@@ -14,9 +14,10 @@
     "javier": "git stash && git pull && git stash pop"
   },
   "dependencies": {
+    "@fontsource-variable/montserrat": "^5.0.4",
     "bootstrap": "^5.2.3",
+    "clsx": "^1.2.1",
     "gatsby": "^5.9.0",
-    "gatsby-omni-font-loader": "^2.0.2",
     "gatsby-plugin-google-gtag": "^5.10.0",
     "gatsby-plugin-image": "^3.9.0",
     "gatsby-plugin-manifest": "^5.9.0",

@@ -1,0 +1,5 @@
+/* use this file to merge all global styles and reduce imports */
+
+body {
+  font-family: "Montserrat Variable", sans-serif;
+}

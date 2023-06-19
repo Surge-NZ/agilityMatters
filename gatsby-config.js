@@ -20,7 +20,11 @@ module.exports = {
     {
       resolve: `gatsby-source-wordpress`,
       options: {
-        url: `https://necta.surgetechnology.co.nz/graphql`,
+        url: `http://am.surgetechnology.co.nz/graphql`,
+        schema: {
+          timeout: 60000,
+          perPage: 80,
+        },
       },
     },
     `gatsby-plugin-sass`,
@@ -37,7 +41,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `Agility Matters`,
         short_name: `Agility Matters`,
         start_url: `/`,
         background_color: `#663399`,
@@ -46,22 +50,6 @@ module.exports = {
         // theme_color: `#663399`,
         display: `minimal-ui`,
         icon: "src/images/agility-matters-icon3.png", // This path is relative to the root of the site.
-      },
-    },
-    {
-      resolve: `gatsby-omni-font-loader`,
-      options: {
-        enableListener: true,
-        preconnect: [
-          `https://fonts.googleapis.com`,
-          `https://fonts.gstatic.com`,
-        ],
-        web: [
-          {
-            name: `Moonserrat`,
-            file: `https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap`,
-          },
-        ],
       },
     },
     {

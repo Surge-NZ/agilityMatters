@@ -1,21 +1,21 @@
 import { Link } from "gatsby";
 import React, { memo, useEffect, useState } from "react";
 import {
-  Collapse,
-  DropdownToggle,
-  UncontrolledDropdown,
+  // Collapse,
+  // DropdownToggle,
+  // UncontrolledDropdown,
+  // NavItem,
+  // Nav,
   NavbarBrand,
   Navbar,
-  NavItem,
-  Nav,
-  } from "reactstrap";
+} from "reactstrap";
 import { isBrowser } from "../../../utils";
 import * as classes from "./styles.module.scss";
 import clsx from "clsx";
-import { StaticImage } from "gatsby-plugin-image";
+// import { StaticImage } from "gatsby-plugin-image";
 
 interface Props {
-  /* type?: USER_TYPE */
+  // /* type?: USER_TYPE */
 }
 
 const DropdownScrollNavbar = memo(({}: Props) => {
@@ -52,53 +52,49 @@ const DropdownScrollNavbar = memo(({}: Props) => {
 
   return (
     <>
-      {collapseOpen && <div id="bodyClick" onClick={handleCollapseNavbar} />}
-      <Navbar className={"fixed-top" + navbarColor} color="white" expand="lg">
-        
-          <div className="navbar-translate">
-            <div className={clsx(classes.navbarContentLeft)}>
-              <NavbarBrand to="/" tag={Link} id="navbar-brand" className="mr-0">
-                <StaticImage
+      {collapseOpen && <div id='bodyClick' onClick={handleCollapseNavbar} />}
+      <Navbar className={"fixed-top" + navbarColor} color='white' expand='lg'>
+        <div className='navbar-translate'>
+          <div className={clsx(classes.navbarContentLeft)}>
+            <NavbarBrand to='/' tag={Link} id='navbar-brand' className='mr-0'>
+              {/* <StaticImage
                   className={classes.templateLogo}
                   src="../../../../static/logo.svg"
                   alt="Template Logo"
-                />
-              </NavbarBrand>
-              <NavbarBrand
-                to="/"
-                tag={Link}
-                id="navbar-brand-logo"
-                className="mr-0"
-                style={{ paddingLeft: '1rem' }}  // Added padding here
-              >
-                <span className={classes.logoWord}>AGILITY MATTERS</span>
-              </NavbarBrand>
-              <span
-                className={clsx(classes.navbarDivider, "mx-3", {
-                  [classes.black]: !navbarColor,
-                })}
-                id="navbar-divider"
-              >
-                {/* | */}
-              </span>
-              <NavbarBrand
-                id="navbar-brand-login"
-                href={"https://app.necta.nz"}
-              >
-                <span className={classes.btnLogin}></span>
-              </NavbarBrand>
-            </div>
-            <button
-              onClick={handleCollapseNavbar}
-              aria-expanded={collapseOpen}
-              className="navbar-toggler"
+                /> */}
+            </NavbarBrand>
+            <NavbarBrand
+              to='/'
+              tag={Link}
+              id='navbar-brand-logo'
+              className='mr-0'
+              style={{ paddingLeft: "1rem" }} // Added padding here
             >
-              <span className="navbar-toggler-bar top-bar"></span>
-              <span className="navbar-toggler-bar middle-bar"></span>
-              <span className="navbar-toggler-bar bottom-bar"></span>
-            </button>
+              <span className={classes.logoWord}>AGILITY MATTERS</span>
+            </NavbarBrand>
+            <span
+              className={clsx(classes.navbarDivider, "mx-3", {
+                [classes.black]: !navbarColor,
+              })}
+              id='navbar-divider'
+            >
+              {/* | */}
+            </span>
+            <NavbarBrand id='navbar-brand-login' href={"https://app.necta.nz"}>
+              <span className={classes.btnLogin}></span>
+            </NavbarBrand>
           </div>
-          {/* <Collapse 
+          <button
+            onClick={handleCollapseNavbar}
+            aria-expanded={collapseOpen}
+            className='navbar-toggler'
+          >
+            <span className='navbar-toggler-bar top-bar'></span>
+            <span className='navbar-toggler-bar middle-bar'></span>
+            <span className='navbar-toggler-bar bottom-bar'></span>
+          </button>
+        </div>
+        {/* <Collapse 
               isOpen={collapseOpen} 
               navbar 
               style={{
@@ -142,7 +138,6 @@ const DropdownScrollNavbar = memo(({}: Props) => {
               </UncontrolledDropdown>
             </Nav>
           </Collapse> */}
-        
       </Navbar>
     </>
   );
