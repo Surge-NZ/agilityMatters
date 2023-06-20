@@ -4,8 +4,6 @@ import Hero from "../components/hero";
 import Features from "../components/features";
 import About from "../components/about";
 import Praise from "../components/praise";
-import Seo from "../components/seo/seo";
-import FooterBlack from "../components/FoooterBlack";
 
 const IndexPage = () => {
   return (
@@ -14,10 +12,8 @@ const IndexPage = () => {
       <Features />
       <Praise />
       <About />
-      <FooterBlack />
     </Layout>
   );
 };
 
-export const Head = () => <Seo />;
 export default IndexPage;

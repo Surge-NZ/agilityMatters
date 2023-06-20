@@ -13,21 +13,26 @@ function FooterBlack() {
   const handleClick = (slug) => {};
   return (
     <>
-      <footer className="footer" data-background-color="black">
-      <Container>
-        <nav>
+      <footer className='footer' data-background-color='black'>
+        <Container>
+          <nav>
             <ul>
               <li>
                 <Link to={"/"}>Home</Link>
               </li>
               <li>
-                <Link to={"https://www.amazon.com.au/Agility-Matters-Adapting-Organisation-Flexibility-ebook/dp/B0C5FG4FN1/ref=sr_1_1?crid=10QMLX1XEGHB1&keywords=agility+matters&qid=1684815247&sprefix=agility+matter%2Caps%2C326&sr=8-1"}>Purchase</Link>
+                <Link
+                  to={
+                    "https://www.amazon.com.au/Agility-Matters-Adapting-Organisation-Flexibility-ebook/dp/B0C5FG4FN1/ref=sr_1_1?crid=10QMLX1XEGHB1&keywords=agility+matters&qid=1684815247&sprefix=agility+matter%2Caps%2C326&sr=8-1"
+                  }
+                >
+                  Purchase
+                </Link>
               </li>
-
             </ul>
           </nav>
-          <div className={`copyright ${classes.copyright}`} id="copyright">
-            © {new Date().getFullYear()} Agility Matters 
+          <div className={`copyright ${classes.copyright}`} id='copyright'>
+            © {new Date().getFullYear()} Agility Matters
           </div>
         </Container>
       </footer>
