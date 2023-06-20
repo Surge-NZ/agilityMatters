@@ -2,13 +2,12 @@ import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
-
 const DynamicImage = ({
   imageName,
   imageAlt,
- // imageWidth,
+  // imageWidth,
   //imageQuality,
- // imageFormats,
+  // imageFormats,
 }) => {
   const data = useStaticQuery(graphql`
     query {
@@ -16,9 +15,7 @@ const DynamicImage = ({
         nodes {
           name
           childImageSharp {
-            gatsbyImageData(
-              formats: [AUTO, WEBP, AVIF]
-            )
+            gatsbyImageData(formats: [AUTO, WEBP, AVIF])
           }
         }
       }
@@ -27,25 +24,17 @@ const DynamicImage = ({
 
   const imageNode = (imageName) => {
     return data.images.nodes.find((node) => node.name === imageName);
-      };
+  };
 
   const imageData = imageNode(imageName);
 
   const image = getImage(imageData);
 
-
-
-
-
-
   return (
     <div>
-      <GatsbyImage
-        image={image}
-        alt={imageAlt}
-      />
+      <GatsbyImage image={image} alt={imageAlt} />
     </div>
   );
 };
 
- export default DynamicImage;
+export default DynamicImage;
