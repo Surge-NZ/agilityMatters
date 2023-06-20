@@ -27,6 +27,7 @@ function Praise() {
               <Col lg={6} className='d-flex align-items-center'>
                 <video controls className={styles.video}>
                   <source src={Agil} type='video/mp4' loading='lazy' />
+                  <track kind='captions' src='' label='English' default />
                   <track />
                 </video>
               </Col>

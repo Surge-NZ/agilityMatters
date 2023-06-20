@@ -29,7 +29,7 @@ Interactive BAR to give you a Measure of your Organisation'
       </Col>
       <Col md={6} className={styles.columnRight}>
         <StaticImage
-          className={styles.centered}
+          className={styles.container}
           src='../../images/current-state-analysis-graph.png'
           alt='Current state analysis image chart'
           placeholder='blurred'
