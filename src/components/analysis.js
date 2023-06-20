@@ -32,7 +32,7 @@ function Analysis() {
             </p>
           </blockquote>
           <div className={styles.buttonContainer}>
-            <Button color="F96332" className={styles.button}>
+            <Button color='F96332' className={styles.button}>
               Free Analysis Tool
             </Button>
           </div>
@@ -40,9 +40,9 @@ function Analysis() {
         <Col>
           <StaticImage
             className={styles.centered}
-            src="../images/current-state-analysis-graph.png"
-            alt="Current State Analysis Graph"
-            layout="fullWidth"
+            src='../images/current-state-analysis-graph.png'
+            alt='Current State Analysis Graph'
+            layout='constrained'
           />
         </Col>
       </Row>

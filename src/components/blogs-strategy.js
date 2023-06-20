@@ -7,32 +7,32 @@ import * as styles from "./blogs.module.css";
 
 function BlogsStrategy() {
   return (
-    <div className="blogs-3">
+    <div className='blogs-3'>
       <Container>
         <Row>
-          <Col className="ml-auto mr-auto" md="12">
+          <Col className='ml-auto mr-auto' md='12'>
             <h2 className={styles.centered}>
               <b>Adaptive Strategy Models</b>
             </h2>
-            <Card className="card-plain card-blog">
+            <Card className='card-plain card-blog'>
               <Row>
-                <Col md="4">
-                  <div className="card-image">
+                <Col md='4'>
+                  <div className='card-image'>
                     <StaticImage
-                      src="../images/kaizen.png"
-                      alt="Current State Analysis Graph"
-                      layout="fullWidth"
+                      src='../images/kaizen.png'
+                      alt='Current State Analysis Graph'
+                      layout='constrained'
                       //   className={styles.backgroundImage}
                     />
                   </div>
                 </Col>
-                <Col md="8">
-                  <CardTitle tag="h3">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                <Col md='8'>
+                  <CardTitle tag='h3'>
+                    <a href='#pablo' onClick={(e) => e.preventDefault()}>
                       90 Day Strategy
                     </a>
                   </CardTitle>
-                  <p className="card-description">
+                  <p className='card-description'>
                     A 90-day strategy is a short-term, actionable plan that
                     focuses on achieving specific goals within a 90-day period.
                     It is usually used as a tool to align the organization's
@@ -51,26 +51,26 @@ function BlogsStrategy() {
                 </Col>
               </Row>
             </Card>
-            <Card className="card-plain card-blog">
+            <Card className='card-plain card-blog'>
               <Row>
-                <Col md="4">
-                  <div className="card-image">
+                <Col md='4'>
+                  <div className='card-image'>
                     <StaticImage
-                      src="../images/4layers.png"
-                      alt="4 layers blog post"
-                      layout="fullWidth"
+                      src='../images/4layers.png'
+                      alt='4 layers blog post'
+                      layout='constrained'
                       //   className={styles.backgroundImage}
                     />
                     {/* <a href="#pablo" onClick={(e) => e.preventDefault()}></a> */}
                   </div>
                 </Col>
-                <Col md="8">
-                  <CardTitle tag="h3">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                <Col md='8'>
+                  <CardTitle tag='h3'>
+                    <a href='#pablo' onClick={(e) => e.preventDefault()}>
                       Dynamic Roadmap
                     </a>
                   </CardTitle>
-                  <p className="card-description">
+                  <p className='card-description'>
                     A dynamic roadmap is a flexible, iterative plan that helps
                     organizations navigate changing business environments and
                     customer needs. It is designed to be adaptable, allowing
@@ -90,26 +90,26 @@ function BlogsStrategy() {
                 </Col>
               </Row>
             </Card>
-            <Card className="card-plain card-blog">
+            <Card className='card-plain card-blog'>
               <Row>
-                <Col md="4">
-                  <div className="card-image">
+                <Col md='4'>
+                  <div className='card-image'>
                     <StaticImage
-                      src="../images/4layers.png"
-                      alt="4 layers blog post"
-                      layout="fullWidth"
+                      src='../images/4layers.png'
+                      alt='4 layers blog post'
+                      layout='constrained'
                       //   className={styles.backgroundImage}
                     />
                     {/* <a href="#pablo" onClick={(e) => e.preventDefault()}></a> */}
                   </div>
                 </Col>
-                <Col md="8">
-                  <CardTitle tag="h3">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                <Col md='8'>
+                  <CardTitle tag='h3'>
+                    <a href='#pablo' onClick={(e) => e.preventDefault()}>
                       3 0's Model
                     </a>
                   </CardTitle>
-                  <p className="card-description">
+                  <p className='card-description'>
                     The 3 O's Model is a framework that helps organizations to
                     identify and prioritize opportunities for growth and
                     innovation. The 3 O's stand for Optimize, Orbit, and
@@ -129,26 +129,26 @@ function BlogsStrategy() {
                 </Col>
               </Row>
             </Card>
-            <Card className="card-plain card-blog">
+            <Card className='card-plain card-blog'>
               <Row>
-                <Col md="4">
-                  <div className="card-image">
+                <Col md='4'>
+                  <div className='card-image'>
                     <StaticImage
-                      src="../images/3horizon.png"
-                      alt="Current State Analysis Graph"
-                      layout="fullWidth"
+                      src='../images/3horizon.png'
+                      alt='Current State Analysis Graph'
+                      layout='constrained'
                       //   className={styles.backgroundImage}
                     />
                     {/* <a href="#pablo" onClick={(e) => e.preventDefault()}></a> */}
                   </div>
                 </Col>
-                <Col md="8">
-                  <CardTitle tag="h3">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                <Col md='8'>
+                  <CardTitle tag='h3'>
+                    <a href='#pablo' onClick={(e) => e.preventDefault()}>
                       7 C's of Strategy
                     </a>
                   </CardTitle>
-                  <p className="card-description">
+                  <p className='card-description'>
                     The 7 C's of Strategy is a framework that helps
                     organizations to develop and implement effective strategies.
                     The 7 C's stand for: Context, Customers, Capabilities,

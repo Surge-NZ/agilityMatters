@@ -15,7 +15,7 @@ const DynamicImage = ({
         nodes {
           name
           childImageSharp {
-            gatsbyImageData(formats: [AUTO, WEBP, AVIF])
+            gatsbyImageData(formats: [AUTO, WEBP, AVIF], layout: CONSTRAINED)
           }
         }
       }

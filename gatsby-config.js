@@ -14,7 +14,7 @@ module.exports = {
     image: `/1682629618.png`,
     siteUrl: `https://agilitymatters.nz`,
     author: `Michael Law`,
-    icon: `images/favicon2.ico`,
+    icon: `images/agility-matters-icon3.png`,
   },
   plugins: [
     {

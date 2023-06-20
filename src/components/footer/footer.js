@@ -11,7 +11,7 @@
 //         <StaticImage
 //           src="../images/footer-background.png"
 //           alt="Footer Background Image"
-//           layout="fullWidth"
+//           layout="constrained"
 //           className={styles.backgroundImage}
 //         />
 //         <Col className="ml-auto mr-auto text-center" md="12">

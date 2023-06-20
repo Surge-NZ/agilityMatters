@@ -5,10 +5,10 @@ import * as styles from "./blogs.module.css";
 
 function BlogsTransformation() {
   return (
-    <div className="blogs-3">
+    <div className='blogs-3'>
       <Container>
         <Row>
-          <Col className="ml-auto mr-auto" md="12">
+          <Col className='ml-auto mr-auto' md='12'>
             <h2 className={styles.centered}>
               <b>
                 How to Achieve Agility <br />
@@ -16,25 +16,25 @@ function BlogsTransformation() {
               </b>
             </h2>
             <br></br>
-            <Card className="card-plain card-blog">
+            <Card className='card-plain card-blog'>
               <Row>
-                <Col md="4">
-                  <div className="card-image">
+                <Col md='4'>
+                  <div className='card-image'>
                     <StaticImage
-                      src="../images/kaizen.png"
-                      alt="Current State Analysis Graph"
-                      layout="fullWidth"
+                      src='../images/kaizen.png'
+                      alt='Current State Analysis Graph'
+                      layout='constrained'
                       //   className={styles.backgroundImage}
                     />
                   </div>
                 </Col>
-                <Col md="8">
-                  <CardTitle tag="h3">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                <Col md='8'>
+                  <CardTitle tag='h3'>
+                    <a href='#pablo' onClick={(e) => e.preventDefault()}>
                       Kaizen Transformation{" "}
                     </a>
                   </CardTitle>
-                  <p className="card-description">
+                  <p className='card-description'>
                     Kaizen is a Japanese Term that refers to the practice of
                     Continuous Improvement. The Kaizen Transformation is a
                     process of implementing this philosophy throughout an
@@ -48,26 +48,26 @@ function BlogsTransformation() {
                 </Col>
               </Row>
             </Card>
-            <Card className="card-plain card-blog">
+            <Card className='card-plain card-blog'>
               <Row>
-                <Col md="4">
-                  <div className="card-image">
+                <Col md='4'>
+                  <div className='card-image'>
                     <StaticImage
-                      src="../images/4layers.png"
-                      alt="4 layers blog post"
-                      layout="fullWidth"
+                      src='../images/4layers.png'
+                      alt='4 layers blog post'
+                      layout='constrained'
                       //   className={styles.backgroundImage}
                     />
                     {/* <a href="#pablo" onClick={(e) => e.preventDefault()}></a> */}
                   </div>
                 </Col>
-                <Col md="8">
-                  <CardTitle tag="h3">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                <Col md='8'>
+                  <CardTitle tag='h3'>
+                    <a href='#pablo' onClick={(e) => e.preventDefault()}>
                       4 Layers of an Organisation
                     </a>
                   </CardTitle>
-                  <p className="card-description">
+                  <p className='card-description'>
                     The Four Layers of an Organization is a framework that
                     describes the different levels at which an organization can
                     be viewed and managed. These layers are: the Strategic
@@ -88,26 +88,26 @@ function BlogsTransformation() {
                 </Col>
               </Row>
             </Card>
-            <Card className="card-plain card-blog">
+            <Card className='card-plain card-blog'>
               <Row>
-                <Col md="4">
-                  <div className="card-image">
+                <Col md='4'>
+                  <div className='card-image'>
                     <StaticImage
-                      src="../images/3horizon.png"
-                      alt="Current State Analysis Graph"
-                      layout="fullWidth"
+                      src='../images/3horizon.png'
+                      alt='Current State Analysis Graph'
+                      layout='constrained'
                       //   className={styles.backgroundImage}
                     />
                     {/* <a href="#pablo" onClick={(e) => e.preventDefault()}></a> */}
                   </div>
                 </Col>
-                <Col md="8">
-                  <CardTitle tag="h3">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                <Col md='8'>
+                  <CardTitle tag='h3'>
+                    <a href='#pablo' onClick={(e) => e.preventDefault()}>
                       3 Horizon's Model
                     </a>
                   </CardTitle>
-                  <p className="card-description">
+                  <p className='card-description'>
                     The Three Horizon Model is a framework that helps
                     organizations to manage their innovation portfolio. The
                     framework consists of three horizons: Horizon 1, which
