@@ -14,7 +14,7 @@ module.exports = {
     image: `/1682629618.png`,
     siteUrl: `https://agilitymatters.nz`,
     author: `Michael Law`,
-    icon: `images/favicon2.ico`,
+    icon: `images/agility-matters-icon3.png`,
   },
   plugins: [
     {
@@ -37,7 +37,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `Agility Matters`,
         short_name: `Agility Matters`,
         start_url: `/`,
         background_color: `#663399`,

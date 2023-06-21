@@ -1,5 +1,5 @@
 import React from "react";
-// import FixedTransparentNavbar from "../components/Navbars/FixedTransparentNavbar";
+import Seo from "../components/seo/seo";
 import DropdownScrollNavbar from "../components/Navbars/DropdownScrollNavbar";
 
 // import Navbar from "./navbar";
@@ -15,11 +15,11 @@ const Layout = ({ children }) => {
       {/* <Navbar /> */}
       {/* <FixedTransparentNavbar /> */}
       <DropdownScrollNavbar />
-
-      {/* <Nav /> */}
       {children}
-    </React.Fragment>
+      <FooterBlack />
+    </>
   );
 };
+export const Head = () => <Seo />;
 
 export default Layout;

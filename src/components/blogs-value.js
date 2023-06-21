@@ -6,33 +6,33 @@ import * as styles from "./blogs.module.css";
 
 function BlogsValue() {
   return (
-    <div className="blogs-3">
+    <div className='blogs-3'>
       <Container>
         <Row>
-          <Col className="ml-auto mr-auto" md="10">
+          <Col className='ml-auto mr-auto' md='10'>
             <h2 className={styles.centered}>
               <b>Customer Value Fundamentals</b>
             </h2>
             <br></br>
-            <Card className="card-plain card-blog">
+            <Card className='card-plain card-blog'>
               <Row>
-                <Col md="4">
-                  <div className="card-image">
+                <Col md='4'>
+                  <div className='card-image'>
                     <StaticImage
-                      src="../images/kaizen.png"
-                      alt="Current State Analysis Graph"
-                      layout="fullWidth"
+                      src='../images/kaizen.png'
+                      alt='Current State Analysis Graph'
+                      layout='constrained'
                       //   className={styles.backgroundImage}
                     />
                   </div>
                 </Col>
-                <Col md="8">
-                  <CardTitle tag="h3">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                <Col md='8'>
+                  <CardTitle tag='h3'>
+                    <a href='#pablo' onClick={(e) => e.preventDefault()}>
                       Strategic Agility
                     </a>
                   </CardTitle>
-                  <p className="card-description">
+                  <p className='card-description'>
                     Strategic agility refers to the ability of an organization
                     to quickly and effectively adapt its strategy in response to
                     changing market conditions, customer needs, and
@@ -51,26 +51,26 @@ function BlogsValue() {
                 </Col>
               </Row>
             </Card>
-            <Card className="card-plain card-blog">
+            <Card className='card-plain card-blog'>
               <Row>
-                <Col md="4">
-                  <div className="card-image">
+                <Col md='4'>
+                  <div className='card-image'>
                     <StaticImage
-                      src="../images/4layers.png"
-                      alt="4 layers blog post"
-                      layout="fullWidth"
+                      src='../images/4layers.png'
+                      alt='4 layers blog post'
+                      layout='constrained'
                       //   className={styles.backgroundImage}
                     />
                     {/* <a href="#pablo" onClick={(e) => e.preventDefault()}></a> */}
                   </div>
                 </Col>
-                <Col md="8">
-                  <CardTitle tag="h3">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                <Col md='8'>
+                  <CardTitle tag='h3'>
+                    <a href='#pablo' onClick={(e) => e.preventDefault()}>
                       Cognitive Diversity
                     </a>
                   </CardTitle>
-                  <p className="card-description">
+                  <p className='card-description'>
                     Cognitive diversity refers to the diversity of thinking and
                     problem-solving styles within an organization. It is the
                     idea that different individuals have different ways of
@@ -90,26 +90,26 @@ function BlogsValue() {
                 </Col>
               </Row>
             </Card>
-            <Card className="card-plain card-blog">
+            <Card className='card-plain card-blog'>
               <Row>
-                <Col md="4">
-                  <div className="card-image">
+                <Col md='4'>
+                  <div className='card-image'>
                     <StaticImage
-                      src="../images/3horizon.png"
-                      alt="Current State Analysis Graph"
-                      layout="fullWidth"
+                      src='../images/3horizon.png'
+                      alt='Current State Analysis Graph'
+                      layout='constrained'
                       //   className={styles.backgroundImage}
                     />
                     {/* <a href="#pablo" onClick={(e) => e.preventDefault()}></a> */}
                   </div>
                 </Col>
-                <Col md="8">
-                  <CardTitle tag="h3">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                <Col md='8'>
+                  <CardTitle tag='h3'>
+                    <a href='#pablo' onClick={(e) => e.preventDefault()}>
                       Customer Experience
                     </a>
                   </CardTitle>
-                  <p className="card-description">
+                  <p className='card-description'>
                     Customer experience (CX) is the overall perception that a
                     customer has of a company, based on all of their
                     interactions with it. It encompasses the full range of
@@ -129,25 +129,25 @@ function BlogsValue() {
                 </Col>
               </Row>
             </Card>
-            <Card className="card-plain card-blog">
+            <Card className='card-plain card-blog'>
               <Row>
-                <Col md="4">
-                  <div className="card-image">
+                <Col md='4'>
+                  <div className='card-image'>
                     <StaticImage
-                      src="../images/empowerment.png"
-                      alt="Employer Empowerment"
-                      layout="fullWidth"
+                      src='../images/empowerment.png'
+                      alt='Employer Empowerment'
+                      layout='constrained'
                       //   className={styles.backgroundImage}
                     />
                   </div>
                 </Col>
-                <Col md="8">
-                  <CardTitle tag="h3">
-                    <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                <Col md='8'>
+                  <CardTitle tag='h3'>
+                    <a href='#pablo' onClick={(e) => e.preventDefault()}>
                       Employer Empowerment
                     </a>
                   </CardTitle>
-                  <p className="card-description">
+                  <p className='card-description'>
                     Employee empowerment is the practice of giving employees the
                     autonomy, authority, and resources they need to make
                     decisions and take ownership of their work. It is the

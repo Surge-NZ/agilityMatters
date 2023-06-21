@@ -7,7 +7,6 @@ import "./src/assets/demo/demo.css?v=1.4.0"; //brings in demo css from the locat
 import "./src/assets/demo/react-demo.css?v=1.4.0"; //brings in react demo css from the location specified
 import "./src/assets/demo/nucleo-icons-page-styles.css?v=1.4.0"; //brings in nucleo icons css from the location specified
 import "./src/assets/css/nucleo-icons-page-styles.css?v=1.4.0"; //brings in nucleo icons css from the location specified
-
 import "./src/assets/scss/index.scss"; //brings in our custom css from the location specified
 
 // export const onClientEntry = () => {

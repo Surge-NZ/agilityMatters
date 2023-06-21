@@ -11,11 +11,11 @@ const Hero = () => {
         <Col md={6} className={styles.heroLeftColumn}>
           <StaticImage
             className={styles.heroImage}
-            src="../images/1682629618.png"
-            alt="Agility Matters Book Cover"
-            loading="eager"
+            src='../images/1682629618.png'
+            alt='Agility Matters Book Cover'
+            loading='eager'
             quality={100}
-            placeholder="blurred"
+            placeholder='blurred'
             formats={["auto", "webp", "avif"]}
 
             // style={{ marginBottom: `var(--space-3)` }}
@@ -29,23 +29,31 @@ const Hero = () => {
             A Novel about adapting an organisation to respond to customer needs,
             flexibly.
           </p>
-          <div className="d-flex justify-content-center mt-3">
-            <Button color="primary"
-              className={styles.heroButton}
-              aria-label="purchase"
-              href="https://www.amazon.com.au/Agility-Matters-Adapting-Organisation-Flexibility-ebook/dp/B0C5FG4FN1/ref=sr_1_1?crid=10QMLX1XEGHB1&keywords=agility+matters&qid=1684815247&sprefix=agility+matter%2Caps%2C326&sr=8-1"
+          <div className='d-flex justify-content-center mt-3'>
+            <a
+              aria-label='purchase the book'
+              href='https://www.amazon.com.au/Agility-Matters-Adapting-Organisation-Flexibility-ebook/dp/B0C5FG4FN1/ref=sr_1_1?crid=10QMLX1XEGHB1&keywords=agility+matters&qid=1684815247&sprefix=agility+matter%2Caps%2C326&sr=8-1'
             >
-              GET A COPY HERE
-            </Button>
-            {/* note, inconsistency in styles: first button is in all caps, second button is camel case. Advising a higher font weight and better color contrast for better readibility -J */}
-            <Button color="secondary"
-              className={styles.heroButton2}
-              aria-label="messure-current-state"
-              href="https://agility.scoreapp.com/"
-           
+              <Button
+                color='primary'
+                className={styles.heroButton}
+                aria-label='purchase'
+              >
+                GET A COPY HERE
+              </Button>
+            </a>
+            <a
+              aria-label='messure-current-state'
+              href='https://agility.scoreapp.com/'
             >
-              MEASURE CURRENT STATE
-            </Button>
+              <Button
+                color='secondary'
+                className={styles.heroButton2}
+                aria-label='messure-current-state'
+              >
+                MEASURE CURRENT STATE
+              </Button>
+            </a>
           </div>
         </Col>
       </Row>

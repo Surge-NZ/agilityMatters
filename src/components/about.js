@@ -1,21 +1,21 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import DynamicImage from "../components/not-working-yet/dynamic-image-graphql";
+import DynamicImage from "../components/mini-components/dynamic-image-graphql";
 
 const About = () => {
   return (
     <Container style={{ marginBottom: "10vh" }}>
       <Row style={{ textAlign: "center" }}>
-        <Col className="ml-auto" md="12">
-          <h2 className="content-center title">Meet the Author</h2>
+        <Col className='ml-auto' md='12'>
+          <h2 className='content-center title'>Meet the Author</h2>
         </Col>
       </Row>
 
       <Row>
         <Col>
-          <DynamicImage imageName="headshot" imageAlt="hi" />
+          <DynamicImage imageName='headshot' imageAlt='hi' />
         </Col>
-        <Col className="ml-auto mr-auto" md="8">
+        <Col className='ml-auto mr-auto' md='8'>
           <p>
             Michael Law, a renowned expert in the field of business
             transformation, with over 15 years of experience, Michael has carved

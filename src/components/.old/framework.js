@@ -7,10 +7,10 @@ import { StaticImage } from "gatsby-plugin-image";
 function Framework() {
   return (
     <Container>
-      <Row md="12">
+      <Row md='12'>
         <h2 className={styles.centeredTitle}>Optimal Framework</h2>
 
-        <Col md="6">
+        <Col md='6'>
           <h3>
             <b>ASO Model</b>
           </h3>
@@ -36,12 +36,12 @@ function Framework() {
             </p>
           </blockquote>
           <div className={styles.buttonContainer}>
-            <Button color="F96332" className={styles.button}>
+            <Button color='F96332' className={styles.button}>
               Free ASO Framework Model Tool
             </Button>
           </div>
         </Col>
-        <Col md="6">
+        <Col md='6'>
           <h3>
             <b>OSG Model</b>
           </h3>
@@ -69,7 +69,7 @@ function Framework() {
             </p>
           </blockquote>
           <div className={styles.buttonContainer}>
-            <Button color="F96332" className={styles.button}>
+            <Button color='F96332' className={styles.button}>
               Free OSG Framework Model Tool
             </Button>
           </div>
@@ -77,9 +77,9 @@ function Framework() {
         <Row className={styles.centered}>
           <StaticImage
             className={styles.centered}
-            src="../images/ASOframework.png"
-            alt="Agility Canvas"
-            layout="fullWidth"
+            src='../images/ASOframework.png'
+            alt='Agility Canvas'
+            layout='constrained'
             //   className={styles.backgroundImage}
           />
           <h4 className={styles.centered}>

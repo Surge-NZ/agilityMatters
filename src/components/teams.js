@@ -33,7 +33,7 @@ function Teams() {
             </p>
           </blockquote>
           <div className={styles.buttonContainer}>
-            <Button color="F96332" className={styles.button}>
+            <Button color='F96332' className={styles.button}>
               Free Analysis Tool
             </Button>
           </div>
@@ -41,9 +41,9 @@ function Teams() {
         <Col>
           <StaticImage
             className={styles.centered}
-            src="../images/teams.png"
-            alt="Image of a team of people"
-            layout="fullWidth"
+            src='../images/teams.png'
+            alt='Image of a team of people'
+            layout='constrained'
           />
         </Col>
       </Row>
@@ -52,9 +52,9 @@ function Teams() {
         <Col>
           <StaticImage
             className={styles.centered}
-            src="../images/agility-canvas.png"
-            alt="Agility Canvas"
-            layout="fullWidth"
+            src='../images/agility-canvas.png'
+            alt='Agility Canvas'
+            layout='constrained'
             //   className={styles.backgroundImage}
           />
         </Col>
@@ -82,7 +82,7 @@ function Teams() {
             </p>
           </blockquote>
           <div className={styles.buttonContainer}>
-            <Button color="F96332" className={styles.button}>
+            <Button color='F96332' className={styles.button}>
               Free Analysis Tool
             </Button>
           </div>

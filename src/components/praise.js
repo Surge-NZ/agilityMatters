@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "gatsby";
+// import Link from "gatsby";
 
 // reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
@@ -11,29 +11,31 @@ import Agil from "../assets/video/agil.mp4";
 
 function Praise() {
   return (
-    <div className="section">
-      <div className="about-description text-center">
+    <div className='section'>
+      <div className='about-description text-center'>
         <div className={styles.videoAndTestimonials}>
           <Container>
             <Row>
               <h2
-                className="title"
+                className='title'
                 style={{
                   textAlign: "center",
                 }}
               >
                 Praise for Agility Matters
               </h2>
-              <Col lg={6} className="d-flex align-items-center">
+              <Col lg={6} className='d-flex align-items-center'>
                 <video controls className={styles.video}>
-                  <source src={Agil} type="video/mp4" loading="lazy" />
+                  <source src={Agil} type='video/mp4' loading='lazy' />
+                  <track kind='captions' src='' label='English' default />
+                  <track />
                 </video>
               </Col>
 
               <Col lg={6}>
-                <div className="typography-line">
+                <div className='typography-line'>
                   <blockquote>
-                    <p className="blockquote blockquote">
+                    <p className='blockquote blockquote'>
                       "This is an easy to read book. It has lots of practical
                       techniques you can use with explanations of how it was
                       used in the story to achieve an outcome. This book gets
@@ -48,7 +50,7 @@ function Praise() {
                   </blockquote>
 
                   <blockquote>
-                    <p className="blockquote blockquote">
+                    <p className='blockquote blockquote'>
                       "This book is a valuable resource for anyone interested in
                       implementing customer-focused agility practices and other
                       organisational theories in the workplace. Written from the
@@ -65,12 +67,12 @@ function Praise() {
                 </div>
               </Col>
             </Row>
-            <Row className="tablet-container d-flex align-items-center">
+            <Row className='tablet-container d-flex align-items-center'>
               <Col>
                 <Button
                   className={styles.heroButton}
-                  aria-label="Coming Soon"
-                  href="https://www.youtube.com/playlist?list=PL7Tt7ju84Q_zWRG05UzGLzr_wQAcI9T-0"
+                  aria-label='Coming Soon'
+                  href='https://www.youtube.com/playlist?list=PL7Tt7ju84Q_zWRG05UzGLzr_wQAcI9T-0'
                 >
                   WATCH MORE
                 </Button>
