@@ -5,10 +5,13 @@ import DropdownScrollNavbar from "../components/Navbars/DropdownScrollNavbar";
 // import Navbar from "./navbar";
 // import Nav from "./nav";
 
-
 const Layout = ({ children }) => {
   return (
-    <React.Fragment>
+    <React.Fragment
+      style={{
+        fontFamily: "'Montserrat Variable', sans-serif",
+      }}
+    >
       {/* <Navbar /> */}
       {/* <FixedTransparentNavbar /> */}
       <DropdownScrollNavbar />
