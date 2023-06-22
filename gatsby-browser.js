@@ -1,3 +1,5 @@
+import React from "react";
+import Layout from "./src/components/layout";
 import "@fontsource-variable/montserrat"; //  bring in montserrat font from fontsource
 
 import "bootstrap/dist/css/bootstrap.min.css"; //brings in bootstrap css from the location specified
@@ -16,3 +18,5 @@ import "./src/assets/scss/index.scss"; //brings in our custom css from the locat
 //     console.log(`# IntersectionObserver is polyfilled!`)
 //   }
 // }
+
+export const wrapPageElement = ({ element }) => <Layout>{element}</Layout>;
