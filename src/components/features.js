@@ -30,14 +30,15 @@ function Features() {
                   Julie as she measures the company’s current state, identifies
                   pain points, and enhances customer value. With each iteration,
                   she brings her department closer to success, proving that
-                  change is indeed possible. Blending fiction with the author’s
-                  firsthand encounters, this compelling tale offers not only a
-                  gripping narrative but also the academic foundation that
-                  explains why these pain points arise and how they can be
-                  resolved. This unique combination of storytelling and
-                  practical insight will keep you hooked from the first page to
-                  the last. Will Julie’s pursuit of change usher in a new era
-                  for NZFS?
+                  change is indeed possible. <br />
+                  <br />
+                  Blending fiction with the author’s firsthand encounters, this
+                  compelling tale offers not only a gripping narrative but also
+                  the academic foundation that explains why these pain points
+                  arise and how they can be resolved. This unique combination of
+                  storytelling and practical insight will keep you hooked from
+                  the first page to the last. Will Julie’s pursuit of change
+                  usher in a new era for NZFS?
                 </h4>
               </Col>
             </Row>
