@@ -1,6 +1,5 @@
 import React, { memo } from "react";
 import { graphql } from "gatsby";
-import Layout from "../components/layout";
 import {
   Container,
   Card,
@@ -40,7 +39,7 @@ const Page = memo((props: Props) => {
 
   console.log(wpPage.acf.textcontent);
   return (
-    <Layout {...wpPage}>
+    <div {...wpPage}>
       {/* <SEO title={wpPage.title} /> */}
       <div>
         <Container>
@@ -52,7 +51,7 @@ const Page = memo((props: Props) => {
           />
         </Container>
       </div>
-    </Layout>
+    </div>
   );
 });
 
