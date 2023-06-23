@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import React, { useEffect } from "react";
 import { graphql } from "gatsby";
 import {
   Container,
@@ -26,34 +26,56 @@ interface Props {
             url: string;
             publicURL: string;
           };
-        }[];
+        };
       };
     };
   };
 }
 
-const Page = memo((props: Props) => {
+const Page = (props: Props) => {
   const { wpPage } = props.data;
+
+  useEffect(() => {
+    console.log("Page component mounted");
+    return () => {
+      console.log("Page component unmounted");
+    };
+  }, []);
+
+  useEffect(() => {
+    console.log("Page component updated");
+  }, [wpPage]);
 
   console.log(wpPage);
 
   console.log(wpPage.acf.textcontent);
+
+  useEffect(() => {
+    // Add a delay to see console logs
+    setTimeout(() => {
+      debugger; // Pause execution here
+    }, 2000); // Adjust the delay time (in milliseconds) as needed
+  }, []);
+
+  debugger;
+
   return (
     <div {...wpPage}>
       {/* <SEO title={wpPage.title} /> */}
       <div>
         <Container>
-          {/* <Heading as="h1">{wpPage.title}</Heading> */}
+          {/* <div as="h1">{wpPage.title}</div> */}
           <div
             dangerouslySetInnerHTML={{
               __html: wpPage.acf.textcontent,
             }}
           />
+          <h1>{wpPage.title}</h1>
         </Container>
       </div>
     </div>
   );
-});
+};
 
 export const query = graphql`
   query ($databaseId: Int) {

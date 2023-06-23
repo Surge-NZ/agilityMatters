@@ -1,4 +1,11 @@
 import React from "react";
+import ContactForm from "../components/contact/contact-form";
+import FrameworkNew from "../components/framework";
 
-const Test = () => <h1>hi</h1>;
+const Test = () => (
+  <>
+    <FrameworkNew />
+    <ContactForm />
+  </>
+);
 export default Test;
