@@ -1,19 +1,19 @@
 import React from "react";
 import Seo from "../components/seo/seo";
 import DropdownScrollNavbar from "../components/Navbars/DropdownScrollNavbar";
-import FooterBlack from "../components/footer/footer-black";
+import Footer from "../components/footer/footer";
 
 const Layout = ({ children }) => {
   return (
-    <div
+    <React.Fragment
       style={{
         fontFamily: "'Montserrat Variable', sans-serif",
       }}
     >
       <DropdownScrollNavbar />
       {children}
-      <FooterBlack />
-    </div>
+      <Footer />
+    </React.Fragment>
   );
 };
 export const Head = () => <Seo />;

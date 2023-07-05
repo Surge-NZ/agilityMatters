@@ -1,28 +1,24 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
-
-// reactstrap components
 import { Button, Container, Row, Col } from "reactstrap";
 import * as styles from "./hero.module.css";
-
-// core components
-// import VideoComponent from "./video-component";
+// import * as styles from "./features.module.css";
 
 function Features() {
   return (
     <>
-      <div className="cd-section" id="features">
+      <div className='cd-section' id='features'>
         <div
-          className="features-1"
+          className='features-1'
           style={{
             padding: "50px 0px 0px 0px",
           }}
         >
           <Container>
             <Row>
-              <Col className="ml-auto mr-auto" md="12">
-                <h2 className="title">About This Book</h2>
-                <h4 className="description">
+              <Col className='ml-auto mr-auto' md='12'>
+                <h2 className='title'>About This Book</h2>
+                <p className='description'>
                   Join Julie, a new GM, as she takes on the challenge of
                   transforming NZFS, a company plagued by the all-too-familiar
                   issues that afflict large organisations. Drawing upon a wealth
@@ -39,41 +35,41 @@ function Features() {
                   storytelling and practical insight will keep you hooked from
                   the first page to the last. Will Julie’s pursuit of change
                   usher in a new era for NZFS?
-                </h4>
+                </p>
               </Col>
             </Row>
             <Row>
-              <Col md="4">
-                <div className="info info-hover">
-                  <div className="icon icon-primary">
-                    <i className="now-ui-icons ui-2_chat-round"></i>
+              <Col md='4'>
+                <div className='info info-hover'>
+                  <div className='icon icon-primary'>
+                    <i className='now-ui-icons ui-2_chat-round'></i>
                   </div>
-                  <h4 className="info-title">Current State Analysis</h4>
-                  <p className="description">
+                  <h4 className='info-title'>Current State Analysis</h4>
+                  <p className='description'>
                     Leveraging the business agility radar to understand your
                     organisations strengths and limitations.
                   </p>
                 </div>
               </Col>
-              <Col md="4">
-                <div className="info info-hover">
-                  <div className="icon icon-primary">
-                    <i className="now-ui-icons business_chart-pie-36"></i>
+              <Col md='4'>
+                <div className='info info-hover'>
+                  <div className='icon icon-primary'>
+                    <i className='now-ui-icons business_chart-pie-36'></i>
                   </div>
-                  <h4 className="info-title">Adaptive Strategy</h4>
-                  <p className="description">
+                  <h4 className='info-title'>Adaptive Strategy</h4>
+                  <p className='description'>
                     Move from strategic planning to strategic intent with the
                     ability to dynamically change direction.
                   </p>
                 </div>
               </Col>
-              <Col md="4">
-                <div className="info info-hover">
-                  <div className="icon icon-primary">
-                    <i className="now-ui-icons design-2_ruler-pencil"></i>
+              <Col md='4'>
+                <div className='info info-hover'>
+                  <div className='icon icon-primary'>
+                    <i className='now-ui-icons design-2_ruler-pencil'></i>
                   </div>
-                  <h4 className="info-title">Customer Value</h4>
-                  <p className="description">
+                  <h4 className='info-title'>Customer Value</h4>
+                  <p className='description'>
                     Focus your organisation on value consumed by the customer by
                     reducing waste and focusing on the right metrics.
                   </p>
@@ -84,11 +80,11 @@ function Features() {
           {/* 
           // other section 
           */}
-          <div className="features-5">
+          <div className='features-5'>
             <Container>
               <Row>
-                <Col lg="6">
-                  <h2 className="title">
+                <Col lg='6'>
+                  <h2 className='title'>
                     AGILITY MATTERS {<br />} by Michael Law
                   </h2>
                   {/*                 
@@ -96,12 +92,12 @@ function Features() {
                     Blurb of the book / Overview on how it helps and what it
                     covers.Buy it so you can be the best Etc etc Etc
                   </p> */}
-                  <div className="info info-horizontal">
-                    <div className="icon icon-primary">
+                  <div className='info info-horizontal'>
+                    <div className='icon icon-primary'>
                       {/* <i className="now-ui-icons location_world"></i> */}
                     </div>
-                    <div className="description">
-                      <h4 className="info-title">Business Agility Radar</h4>
+                    <div className='description'>
+                      <h4 className='info-title'>Business Agility Radar</h4>
                       <p>
                         Adapting an organisation to respond to customer needs in
                         a flexible way drives better business outcomes. Agility
@@ -113,12 +109,12 @@ function Features() {
                       </p>
                     </div>
                   </div>
-                  <div className="info info-horizontal">
-                    <div className="icon icon-primary">
+                  <div className='info info-horizontal'>
+                    <div className='icon icon-primary'>
                       {/* <i className="now-ui-icons sport_user-run"></i> */}
                     </div>
-                    <div className="description">
-                      <h4 className="info-title">
+                    <div className='description'>
+                      <h4 className='info-title'>
                         Amber to Orange Delivery Model
                       </h4>
                       <p>
@@ -131,12 +127,12 @@ function Features() {
                       </p>
                     </div>
                   </div>
-                  <div className="info info-horizontal">
-                    <div className="icon icon-primary">
+                  <div className='info info-horizontal'>
+                    <div className='icon icon-primary'>
                       {/* <i className="now-ui-icons ui-2_time-alarm"></i> */}
                     </div>
-                    <div className="description">
-                      <h4 className="info-title">
+                    <div className='description'>
+                      <h4 className='info-title'>
                         7 Circumstances of Strategy
                       </h4>
                       <p>
@@ -150,18 +146,18 @@ function Features() {
                   </div>
                 </Col>
                 <Col
-                  lg="6"
-                  className="tablet-container d-flex align-items-center"
+                  lg='6'
+                  className='tablet-container d-flex align-items-center'
                 >
                   <StaticImage
                     // className={styles.heroImage}
-                    src="../images/1682629796.png"
-                    alt="Agility Matters Book Cover"
-                    loading="eager"
-                    objectFit="contain"
+                    src='../images/1682629796.png'
+                    alt='Agility Matters Book Cover'
+                    loading='eager'
+                    objectFit='contain'
                     // width={1500}
                     quality={100}
-                    placeholder="blurred"
+                    placeholder='blurred'
                     formats={["auto", "webp", "avif"]}
                   />
                 </Col>
@@ -170,8 +166,8 @@ function Features() {
                   <Col>
                     <Button
                       className={styles.heroButton}
-                      aria-label="Purchase Now"
-                      href="https://www.amazon.com.au/Agility-Matters-Adapting-Organisation-Flexibility-ebook/dp/B0C5FG4FN1/ref=sr_1_1?crid=10QMLX1XEGHB1&keywords=agility+matters&qid=1684815247&sprefix=agility+matter%2Caps%2C326&sr=8-1"
+                      aria-label='Purchase Now'
+                      href='https://www.amazon.com.au/Agility-Matters-Adapting-Organisation-Flexibility-ebook/dp/B0C5FG4FN1/ref=sr_1_1?crid=10QMLX1XEGHB1&keywords=agility+matters&qid=1684815247&sprefix=agility+matter%2Caps%2C326&sr=8-1'
                     >
                       GRAB A COPY
                     </Button>

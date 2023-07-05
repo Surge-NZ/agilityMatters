@@ -1,43 +1,30 @@
 .hero {
   background-color: #2b2b2b;
-
   /* color: white; */
-
   padding: 15%;
-
   display: flex;
-
   flex-direction: column;
-
   justify-content: center;
-
   align-items: center;
-
   /* min-height: 75vh; */
   height: 75vh;
 }
 
 .heroImage {
   /* max-height: 50vh; */
-
   object-fit: fill;
 }
 
 @media (max-width: 768px) {
   .hero {
     flex-direction: row;
-
     align-items: flex-start;
-
     min-height: 75vh;
-
     height: auto;
-  
   }
 
   .heroRightColumn > h1 {
     font-size: 7vw !important;
-
     margin-bottom: 20px;
   }
 
@@ -53,62 +40,40 @@
 
 .heroContainer {
   display: flex;
-
   align-items: center;
-
   font-family: "Montserrat", sans-serif;
 }
 
 .heroLeftColumn {
   display: flex;
-
   align-items: center;
-
   padding-bottom: 50px;
-
   padding-top: 50px;
 }
 
 .heroRightColumn {
   display: flex;
-
   flex-direction: column;
-
   justify-content: center;
-
   align-items: flex-end;
-
   text-align: end;
-
-  /* font-family: "Monserrat"; */
 }
 
 .heroRightColumn > h1 {
   color: #fff;
-
-  /* font-family: "Montserrat", sans-serif; */
-
-  /* font-style: normal; */
-
   font-weight: 700;
-
   font-size: 3.5vw;
-
   margin-bottom: 20px;
 }
 
 .heroRightColumn > p {
   color: #cbcbcb;
-
   font-size: 2em;
-
   text-align: end;
-
   margin-bottom: 20px;
 }
 
-.heroButton { 
-  
+.heroButton {
   font-size: 1em;
   color: black;
   font-weight: 400;
@@ -116,7 +81,7 @@
   margin-right: 1rem;
 }
 
-.heroButton:hover { 
+.heroButton:hover {
   background-color: grey;
   font-size: 1em;
   color: white;
@@ -125,9 +90,7 @@
   margin-right: 1rem;
 }
 
-
-.heroButton2 { 
-  
+.heroButton2 {
   font-size: 1em;
   color: black;
   font-weight: 400;
@@ -135,7 +98,7 @@
   margin-right: 1rem;
 }
 
-.heroButton2:hover { 
+.heroButton2:hover {
   background-color: grey;
   font-size: 1em;
   color: white;
